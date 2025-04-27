@@ -1,0 +1,2001 @@
+payload,label
+A simple sentence without harmful elements.,0
+Here is another example of safe input.,0
+"Hello, this is a safe text.",0
+<a href='javascript:alert(1)'>Click me</a>,1
+A simple sentence without harmful elements.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Normal text without any scripting tags.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<svg onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+"<body onload='alert(""XSS"")'>",1
+Text here is just a harmless message.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+"Hello, this is a safe text.",0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='text' onfocus='alert(1)'>,1
+This is an example of plain text content.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"Hello, this is a safe text.",0
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+This is an example of plain text content.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+This is an example of plain text content.,0
+<script>alert('XSS')</script>,1
+This is an example of plain text content.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+This is an example of plain text content.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Here is another example of safe input.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Text here is just a harmless message.,0
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+This is an example of plain text content.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+"Hello, this is a safe text.",0
+<script>alert('XSS')</script>,1
+Here is another example of safe input.,0
+Plain text data with no embedded scripts.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+<iframe src='javascript:alert(1)'></iframe>,1
+<script>alert('XSS')</script>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='alert(1)'>,1
+A simple sentence without harmful elements.,0
+Normal text without any scripting tags.,0
+A simple sentence without harmful elements.,0
+Text here is just a harmless message.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Here is another example of safe input.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+A simple sentence without harmful elements.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+Plain text data with no embedded scripts.,0
+This is an example of plain text content.,0
+<input type='text' onfocus='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Text here is just a harmless message.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+"<body onload='alert(""XSS"")'>",1
+A simple sentence without harmful elements.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Text here is just a harmless message.,0
+This is an example of plain text content.,0
+<img src='x' onerror='alert(1)'>,1
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+This is an example of plain text content.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<input type='text' onfocus='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Text here is just a harmless message.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<script>alert('XSS')</script>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<script>alert('XSS')</script>,1
+This is an example of plain text content.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+This is an example of plain text content.,0
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+"Hello, this is a safe text.",0
+<iframe src='javascript:alert(1)'></iframe>,1
+Plain text data with no embedded scripts.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Normal text without any scripting tags.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+"Hello, this is a safe text.",0
+<svg onload='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<input type='text' onfocus='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+This is an example of plain text content.,0
+<input type='text' onfocus='alert(1)'>,1
+Here is another example of safe input.,0
+<svg onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+<svg onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+A simple sentence without harmful elements.,0
+A simple sentence without harmful elements.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Normal text without any scripting tags.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<img src='x' onerror='alert(1)'>,1
+<script>alert('XSS')</script>,1
+"Hello, this is a safe text.",0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+"<body onload='alert(""XSS"")'>",1
+<iframe src='javascript:alert(1)'></iframe>,1
+This is an example of plain text content.,0
+<svg onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Normal text without any scripting tags.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<input type='text' onfocus='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+"Hello, this is a safe text.",0
+<svg onload='alert(1)'>,1
+A simple sentence without harmful elements.,0
+"<body onload='alert(""XSS"")'>",1
+Plain text data with no embedded scripts.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<svg onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+<svg onload='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+This is an example of plain text content.,0
+Here is another example of safe input.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+A simple sentence without harmful elements.,0
+Here is another example of safe input.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+<svg onload='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+A simple sentence without harmful elements.,0
+"Hello, this is a safe text.",0
+<input type='text' onfocus='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Plain text data with no embedded scripts.,0
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+A simple sentence without harmful elements.,0
+<img src='x' onerror='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+"<body onload='alert(""XSS"")'>",1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Plain text data with no embedded scripts.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Normal text without any scripting tags.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+A simple sentence without harmful elements.,0
+"<body onload='alert(""XSS"")'>",1
+Text here is just a harmless message.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Normal text without any scripting tags.,0
+Plain text data with no embedded scripts.,0
+<svg onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<svg onload='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+Text here is just a harmless message.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+This is an example of plain text content.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+"<body onload='alert(""XSS"")'>",1
+<script>alert('XSS')</script>,1
+<svg onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+Here is another example of safe input.,0
+This is an example of plain text content.,0
+<svg onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<a href='javascript:alert(1)'>Click me</a>,1
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+"<body onload='alert(""XSS"")'>",1
+<a href='javascript:alert(1)'>Click me</a>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+"<body onload='alert(""XSS"")'>",1
+"Hello, this is a safe text.",0
+<a href='javascript:alert(1)'>Click me</a>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"Hello, this is a safe text.",0
+<script>alert('XSS')</script>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+<input type='text' onfocus='alert(1)'>,1
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+Here is another example of safe input.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+A simple sentence without harmful elements.,0
+Normal text without any scripting tags.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+<input type='text' onfocus='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+Normal text without any scripting tags.,0
+"Hello, this is a safe text.",0
+<input type='text' onfocus='alert(1)'>,1
+Here is another example of safe input.,0
+<input type='text' onfocus='alert(1)'>,1
+Text here is just a harmless message.,0
+<img src='x' onerror='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<svg onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+A simple sentence without harmful elements.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+This is an example of plain text content.,0
+Plain text data with no embedded scripts.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Here is another example of safe input.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='text' onfocus='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<input type='text' onfocus='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Normal text without any scripting tags.,0
+Normal text without any scripting tags.,0
+<svg onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+Here is another example of safe input.,0
+"Hello, this is a safe text.",0
+Text here is just a harmless message.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='text' onfocus='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+"<body onload='alert(""XSS"")'>",1
+Normal text without any scripting tags.,0
+<svg onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<script>alert('XSS')</script>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<input type='text' onfocus='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Plain text data with no embedded scripts.,0
+A simple sentence without harmful elements.,0
+"<body onload='alert(""XSS"")'>",1
+"<body onload='alert(""XSS"")'>",1
+This is an example of plain text content.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Text here is just a harmless message.,0
+This is an example of plain text content.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Plain text data with no embedded scripts.,0
+<input type='text' onfocus='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+A simple sentence without harmful elements.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Normal text without any scripting tags.,0
+Plain text data with no embedded scripts.,0
+This is an example of plain text content.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Plain text data with no embedded scripts.,0
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+<script>alert('XSS')</script>,1
+<input type='text' onfocus='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+A simple sentence without harmful elements.,0
+<input type='text' onfocus='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<script>alert('XSS')</script>,1
+<svg onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Here is another example of safe input.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Here is another example of safe input.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+This is an example of plain text content.,0
+<input type='text' onfocus='alert(1)'>,1
+A simple sentence without harmful elements.,0
+Here is another example of safe input.,0
+<input type='text' onfocus='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+A simple sentence without harmful elements.,0
+Plain text data with no embedded scripts.,0
+"Hello, this is a safe text.",0
+<svg onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+Here is another example of safe input.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Normal text without any scripting tags.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+This is an example of plain text content.,0
+This is an example of plain text content.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<input type='text' onfocus='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+"<body onload='alert(""XSS"")'>",1
+<a href='javascript:alert(1)'>Click me</a>,1
+Text here is just a harmless message.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Text here is just a harmless message.,0
+Here is another example of safe input.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+Normal text without any scripting tags.,0
+<img src='x' onerror='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<input type='text' onfocus='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<svg onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Plain text data with no embedded scripts.,0
+This is an example of plain text content.,0
+<script>alert('XSS')</script>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='text' onfocus='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+Text here is just a harmless message.,0
+"<body onload='alert(""XSS"")'>",1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Here is another example of safe input.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+"Hello, this is a safe text.",0
+<iframe src='javascript:alert(1)'></iframe>,1
+<svg onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<script>alert('XSS')</script>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+"Hello, this is a safe text.",0
+<input type='text' onfocus='alert(1)'>,1
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+This is an example of plain text content.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+"<body onload='alert(""XSS"")'>",1
+"Hello, this is a safe text.",0
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+A simple sentence without harmful elements.,0
+This is an example of plain text content.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<a href='javascript:alert(1)'>Click me</a>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+"Hello, this is a safe text.",0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<svg onload='alert(1)'>,1
+A simple sentence without harmful elements.,0
+<img src='x' onerror='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+<iframe src='javascript:alert(1)'></iframe>,1
+<svg onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+<input type='text' onfocus='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Plain text data with no embedded scripts.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+"<body onload='alert(""XSS"")'>",1
+<svg onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+<img src='x' onerror='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+A simple sentence without harmful elements.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<script>alert('XSS')</script>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Here is another example of safe input.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='text' onfocus='alert(1)'>,1
+"Hello, this is a safe text.",0
+Here is another example of safe input.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Text here is just a harmless message.,0
+Text here is just a harmless message.,0
+Normal text without any scripting tags.,0
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Normal text without any scripting tags.,0
+Here is another example of safe input.,0
+This is an example of plain text content.,0
+<svg onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+Normal text without any scripting tags.,0
+<input type='text' onfocus='alert(1)'>,1
+Here is another example of safe input.,0
+<img src='x' onerror='alert(1)'>,1
+"Hello, this is a safe text.",0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Normal text without any scripting tags.,0
+"Hello, this is a safe text.",0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"Hello, this is a safe text.",0
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+This is an example of plain text content.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+A simple sentence without harmful elements.,0
+A simple sentence without harmful elements.,0
+<img src='x' onerror='alert(1)'>,1
+This is an example of plain text content.,0
+"<body onload='alert(""XSS"")'>",1
+Text here is just a harmless message.,0
+Plain text data with no embedded scripts.,0
+"<body onload='alert(""XSS"")'>",1
+<iframe src='javascript:alert(1)'></iframe>,1
+Text here is just a harmless message.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<svg onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<svg onload='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Text here is just a harmless message.,0
+<input type='text' onfocus='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Normal text without any scripting tags.,0
+Plain text data with no embedded scripts.,0
+"<body onload='alert(""XSS"")'>",1
+<input type='text' onfocus='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<svg onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+A simple sentence without harmful elements.,0
+Normal text without any scripting tags.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='text' onfocus='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+"<body onload='alert(""XSS"")'>",1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Here is another example of safe input.,0
+<svg onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='text' onfocus='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<script>alert('XSS')</script>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+A simple sentence without harmful elements.,0
+Here is another example of safe input.,0
+Here is another example of safe input.,0
+"<body onload='alert(""XSS"")'>",1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Normal text without any scripting tags.,0
+Plain text data with no embedded scripts.,0
+Normal text without any scripting tags.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<img src='x' onerror='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<img src='x' onerror='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+"<body onload='alert(""XSS"")'>",1
+This is an example of plain text content.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"<body onload='alert(""XSS"")'>",1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<img src='x' onerror='alert(1)'>,1
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<svg onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+Here is another example of safe input.,0
+Normal text without any scripting tags.,0
+A simple sentence without harmful elements.,0
+"Hello, this is a safe text.",0
+<input type='text' onfocus='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Normal text without any scripting tags.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Plain text data with no embedded scripts.,0
+Normal text without any scripting tags.,0
+<svg onload='alert(1)'>,1
+A simple sentence without harmful elements.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+This is an example of plain text content.,0
+"<body onload='alert(""XSS"")'>",1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<script>alert('XSS')</script>,1
+<input type='text' onfocus='alert(1)'>,1
+Text here is just a harmless message.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+<script>alert('XSS')</script>,1
+Plain text data with no embedded scripts.,0
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Normal text without any scripting tags.,0
+<svg onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Here is another example of safe input.,0
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+This is an example of plain text content.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+This is an example of plain text content.,0
+<script>alert('XSS')</script>,1
+<svg onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Text here is just a harmless message.,0
+<script>alert('XSS')</script>,1
+<input type='text' onfocus='alert(1)'>,1
+Text here is just a harmless message.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<svg onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+This is an example of plain text content.,0
+<img src='x' onerror='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<script>alert('XSS')</script>,1
+"Hello, this is a safe text.",0
+Plain text data with no embedded scripts.,0
+This is an example of plain text content.,0
+This is an example of plain text content.,0
+<img src='x' onerror='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Here is another example of safe input.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Text here is just a harmless message.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+<svg onload='alert(1)'>,1
+A simple sentence without harmful elements.,0
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+A simple sentence without harmful elements.,0
+Text here is just a harmless message.,0
+Text here is just a harmless message.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"Hello, this is a safe text.",0
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='alert(1)'>,1
+This is an example of plain text content.,0
+Here is another example of safe input.,0
+<input type='text' onfocus='alert(1)'>,1
+Here is another example of safe input.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Text here is just a harmless message.,0
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Text here is just a harmless message.,0
+Here is another example of safe input.,0
+Text here is just a harmless message.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"Hello, this is a safe text.",0
+<a href='javascript:alert(1)'>Click me</a>,1
+This is an example of plain text content.,0
+Plain text data with no embedded scripts.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+A simple sentence without harmful elements.,0
+<img src='x' onerror='alert(1)'>,1
+Here is another example of safe input.,0
+<img src='x' onerror='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Normal text without any scripting tags.,0
+Text here is just a harmless message.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+This is an example of plain text content.,0
+"Hello, this is a safe text.",0
+This is an example of plain text content.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Here is another example of safe input.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+"<body onload='alert(""XSS"")'>",1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<script>alert('XSS')</script>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<script>alert('XSS')</script>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Plain text data with no embedded scripts.,0
+"Hello, this is a safe text.",0
+<svg onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+Here is another example of safe input.,0
+"Hello, this is a safe text.",0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+"<body onload='alert(""XSS"")'>",1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Text here is just a harmless message.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+This is an example of plain text content.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Text here is just a harmless message.,0
+Plain text data with no embedded scripts.,0
+<svg onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<svg onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+<img src='x' onerror='alert(1)'>,1
+Normal text without any scripting tags.,0
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+Normal text without any scripting tags.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+A simple sentence without harmful elements.,0
+A simple sentence without harmful elements.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"Hello, this is a safe text.",0
+Text here is just a harmless message.,0
+Plain text data with no embedded scripts.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<svg onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Here is another example of safe input.,0
+<svg onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+<iframe src='javascript:alert(1)'></iframe>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Normal text without any scripting tags.,0
+"Hello, this is a safe text.",0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"<body onload='alert(""XSS"")'>",1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"Hello, this is a safe text.",0
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+<script>alert('XSS')</script>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Plain text data with no embedded scripts.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<iframe src='javascript:alert(1)'></iframe>,1
+"Hello, this is a safe text.",0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Here is another example of safe input.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"Hello, this is a safe text.",0
+Text here is just a harmless message.,0
+<input type='text' onfocus='alert(1)'>,1
+This is an example of plain text content.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+Here is another example of safe input.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Here is another example of safe input.,0
+<svg onload='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+A simple sentence without harmful elements.,0
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+<input type='text' onfocus='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+This is an example of plain text content.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"<body onload='alert(""XSS"")'>",1
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+Normal text without any scripting tags.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+"<body onload='alert(""XSS"")'>",1
+<img src='x' onerror='alert(1)'>,1
+Normal text without any scripting tags.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+A simple sentence without harmful elements.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='text' onfocus='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Normal text without any scripting tags.,0
+<input type='text' onfocus='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Plain text data with no embedded scripts.,0
+Here is another example of safe input.,0
+A simple sentence without harmful elements.,0
+<script>alert('XSS')</script>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+"Hello, this is a safe text.",0
+<iframe src='javascript:alert(1)'></iframe>,1
+<script>alert('XSS')</script>,1
+Plain text data with no embedded scripts.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+This is an example of plain text content.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+"<body onload='alert(""XSS"")'>",1
+"<body onload='alert(""XSS"")'>",1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<img src='x' onerror='alert(1)'>,1
+Here is another example of safe input.,0
+<svg onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<script>alert('XSS')</script>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+This is an example of plain text content.,0
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+<img src='x' onerror='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+This is an example of plain text content.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<script>alert('XSS')</script>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<svg onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+Normal text without any scripting tags.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Normal text without any scripting tags.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='text' onfocus='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Text here is just a harmless message.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+This is an example of plain text content.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+Plain text data with no embedded scripts.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+This is an example of plain text content.,0
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+"<body onload='alert(""XSS"")'>",1
+Text here is just a harmless message.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+This is an example of plain text content.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+Text here is just a harmless message.,0
+<input type='text' onfocus='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<img src='x' onerror='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='alert(1)'>,1
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+This is an example of plain text content.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Normal text without any scripting tags.,0
+"Hello, this is a safe text.",0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+This is an example of plain text content.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Here is another example of safe input.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+"<body onload='alert(""XSS"")'>",1
+Here is another example of safe input.,0
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+<iframe src='javascript:alert(1)'></iframe>,1
+Here is another example of safe input.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<svg onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Normal text without any scripting tags.,0
+A simple sentence without harmful elements.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<img src='x' onerror='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Here is another example of safe input.,0
+Plain text data with no embedded scripts.,0
+<svg onload='alert(1)'>,1
+Here is another example of safe input.,0
+Plain text data with no embedded scripts.,0
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+A simple sentence without harmful elements.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Plain text data with no embedded scripts.,0
+"Hello, this is a safe text.",0
+Here is another example of safe input.,0
+This is an example of plain text content.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+A simple sentence without harmful elements.,0
+Text here is just a harmless message.,0
+A simple sentence without harmful elements.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+This is an example of plain text content.,0
+Normal text without any scripting tags.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+This is an example of plain text content.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"Hello, this is a safe text.",0
+<a href='javascript:alert(1)'>Click me</a>,1
+This is an example of plain text content.,0
+A simple sentence without harmful elements.,0
+Here is another example of safe input.,0
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+Here is another example of safe input.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+"Hello, this is a safe text.",0
+"Hello, this is a safe text.",0
+<a href='javascript:alert(1)'>Click me</a>,1
+Normal text without any scripting tags.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+Here is another example of safe input.,0
+This is an example of plain text content.,0
+Here is another example of safe input.,0
+Text here is just a harmless message.,0
+<img src='x' onerror='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+Here is another example of safe input.,0
+A simple sentence without harmful elements.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+This is an example of plain text content.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<script>alert('XSS')</script>,1
+Here is another example of safe input.,0
+<script>alert('XSS')</script>,1
+<svg onload='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Plain text data with no embedded scripts.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<script>alert('XSS')</script>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+"Hello, this is a safe text.",0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+A simple sentence without harmful elements.,0
+<script>alert('XSS')</script>,1
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<svg onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+Here is another example of safe input.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Here is another example of safe input.,0
+"<body onload='alert(""XSS"")'>",1
+Here is another example of safe input.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Plain text data with no embedded scripts.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Here is another example of safe input.,0
+Text here is just a harmless message.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Text here is just a harmless message.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+A simple sentence without harmful elements.,0
+<script>alert('XSS')</script>,1
+"Hello, this is a safe text.",0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+This is an example of plain text content.,0
+"Hello, this is a safe text.",0
+<a href='javascript:alert(1)'>Click me</a>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Normal text without any scripting tags.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+A simple sentence without harmful elements.,0
+This is an example of plain text content.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<script>alert('XSS')</script>,1
+This is an example of plain text content.,0
+<svg onload='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<input type='text' onfocus='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+<img src='x' onerror='alert(1)'>,1
+Text here is just a harmless message.,0
+A simple sentence without harmful elements.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Normal text without any scripting tags.,0
+<img src='x' onerror='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+This is an example of plain text content.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+This is an example of plain text content.,0
+Text here is just a harmless message.,0
+Here is another example of safe input.,0
+Normal text without any scripting tags.,0
+Normal text without any scripting tags.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Text here is just a harmless message.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<input type='text' onfocus='alert(1)'>,1
+A simple sentence without harmful elements.,0
+Plain text data with no embedded scripts.,0
+<svg onload='alert(1)'>,1
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+This is an example of plain text content.,0
+<script>alert('XSS')</script>,1
+"<body onload='alert(""XSS"")'>",1
+<a href='javascript:alert(1)'>Click me</a>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+This is an example of plain text content.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='alert(1)'>,1
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+Text here is just a harmless message.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+A simple sentence without harmful elements.,0
+<img src='x' onerror='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Plain text data with no embedded scripts.,0
+Here is another example of safe input.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<input type='text' onfocus='alert(1)'>,1
+<svg onload='alert(1)'>,1
+Text here is just a harmless message.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<input type='text' onfocus='alert(1)'>,1
+Text here is just a harmless message.,0
+Plain text data with no embedded scripts.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Here is another example of safe input.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<script>alert('XSS')</script>,1
+<script>alert('XSS')</script>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<img src='x' onerror='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+A simple sentence without harmful elements.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Normal text without any scripting tags.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+A simple sentence without harmful elements.,0
+<svg onload='alert(1)'>,1
+This is an example of plain text content.,0
+<input type='text' onfocus='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"Hello, this is a safe text.",0
+Here is another example of safe input.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<svg onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Normal text without any scripting tags.,0
+<img src='x' onerror='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+A simple sentence without harmful elements.,0
+Text here is just a harmless message.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+This is an example of plain text content.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Normal text without any scripting tags.,0
+Text here is just a harmless message.,0
+"<body onload='alert(""XSS"")'>",1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<script>alert('XSS')</script>,1
+"Hello, this is a safe text.",0
+<img src='x' onerror='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Plain text data with no embedded scripts.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+A simple sentence without harmful elements.,0
+<img src='x' onerror='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Plain text data with no embedded scripts.,0
+<input type='text' onfocus='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Here is another example of safe input.,0
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='text' onfocus='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='alert(1)'>,1
+This is an example of plain text content.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+This is an example of plain text content.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Plain text data with no embedded scripts.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+Text here is just a harmless message.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+Text here is just a harmless message.,0
+<script>alert('XSS')</script>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<svg onload='alert(1)'>,1
+Text here is just a harmless message.,0
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<iframe src='javascript:alert(1)'></iframe>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<script>alert('XSS')</script>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+<img src='x' onerror='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Plain text data with no embedded scripts.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+"<body onload='alert(""XSS"")'>",1
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+Here is another example of safe input.,0
+<script>alert('XSS')</script>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<iframe src='javascript:alert(1)'></iframe>,1
+"Hello, this is a safe text.",0
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+A simple sentence without harmful elements.,0
+Text here is just a harmless message.,0
+<input type='text' onfocus='alert(1)'>,1
+Text here is just a harmless message.,0
+A simple sentence without harmful elements.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Normal text without any scripting tags.,0
+Here is another example of safe input.,0
+This is an example of plain text content.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<svg onload='alert(1)'>,1
+A simple sentence without harmful elements.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+This is an example of plain text content.,0
+Plain text data with no embedded scripts.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+A simple sentence without harmful elements.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Here is another example of safe input.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+"<body onload='alert(""XSS"")'>",1
+<iframe src='javascript:alert(1)'></iframe>,1
+This is an example of plain text content.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+This is an example of plain text content.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+Text here is just a harmless message.,0
+Normal text without any scripting tags.,0
+Text here is just a harmless message.,0
+"<body onload='alert(""XSS"")'>",1
+Here is another example of safe input.,0
+Text here is just a harmless message.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Here is another example of safe input.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Normal text without any scripting tags.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+<iframe src='javascript:alert(1)'></iframe>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+<img src='x' onerror='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<script>alert('XSS')</script>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<svg onload='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Text here is just a harmless message.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Normal text without any scripting tags.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+"<body onload='alert(""XSS"")'>",1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+A simple sentence without harmful elements.,0
+<script>alert('XSS')</script>,1
+Plain text data with no embedded scripts.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Text here is just a harmless message.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Normal text without any scripting tags.,0
+<svg onload='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+A simple sentence without harmful elements.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<svg onload='alert(1)'>,1
+This is an example of plain text content.,0
+A simple sentence without harmful elements.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<script>alert('XSS')</script>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Plain text data with no embedded scripts.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+"<body onload='alert(""XSS"")'>",1
+"Hello, this is a safe text.",0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<svg onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Plain text data with no embedded scripts.,0
+A simple sentence without harmful elements.,0
+Normal text without any scripting tags.,0
+<script>alert('XSS')</script>,1
+<input type='text' onfocus='alert(1)'>,1
+A simple sentence without harmful elements.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Normal text without any scripting tags.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+A simple sentence without harmful elements.,0
+This is an example of plain text content.,0
+<svg onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<script>alert('XSS')</script>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Plain text data with no embedded scripts.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+<svg onload='alert(1)'>,1
+Text here is just a harmless message.,0
+This is an example of plain text content.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<svg onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='alert(1)'>,1
+Text here is just a harmless message.,0
+<img src='x' onerror='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+Plain text data with no embedded scripts.,0
+Text here is just a harmless message.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Text here is just a harmless message.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Normal text without any scripting tags.,0
+<input type='text' onfocus='alert(1)'>,1
+Here is another example of safe input.,0
+This is an example of plain text content.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<svg onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Plain text data with no embedded scripts.,0
+"<body onload='alert(""XSS"")'>",1
+This is an example of plain text content.,0
+"Hello, this is a safe text.",0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<svg onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+"Hello, this is a safe text.",0
+<svg onload='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Here is another example of safe input.,0
+<script>alert('XSS')</script>,1
+This is an example of plain text content.,0
+This is an example of plain text content.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<img src='x' onerror='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+A simple sentence without harmful elements.,0
+<script>alert('XSS')</script>,1
+Text here is just a harmless message.,0
+Plain text data with no embedded scripts.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<script>alert('XSS')</script>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Plain text data with no embedded scripts.,0
+Here is another example of safe input.,0
+Plain text data with no embedded scripts.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+"Hello, this is a safe text.",0
+Normal text without any scripting tags.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<input type='text' onfocus='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+"<body onload='alert(""XSS"")'>",1
+<svg onload='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Text here is just a harmless message.,0
+A simple sentence without harmful elements.,0
+Normal text without any scripting tags.,0
+Here is another example of safe input.,0
+"Hello, this is a safe text.",0
+<iframe src='javascript:alert(1)'></iframe>,1
+<img src='x' onerror='alert(1)'>,1
+Text here is just a harmless message.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+Here is another example of safe input.,0
+Plain text data with no embedded scripts.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+Normal text without any scripting tags.,0
+Here is another example of safe input.,0
+"Hello, this is a safe text.",0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Normal text without any scripting tags.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Plain text data with no embedded scripts.,0
+Text here is just a harmless message.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+A simple sentence without harmful elements.,0
+"Hello, this is a safe text.",0
+Plain text data with no embedded scripts.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+A simple sentence without harmful elements.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Text here is just a harmless message.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Plain text data with no embedded scripts.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+A simple sentence without harmful elements.,0
+<svg onload='alert(1)'>,1
+<svg onload='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+A simple sentence without harmful elements.,0
+This is an example of plain text content.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Here is another example of safe input.,0
+"Hello, this is a safe text.",0
+<img src='x' onerror='alert(1)'>,1
+Here is another example of safe input.,0
+<img src='x' onerror='alert(1)'>,1
+Normal text without any scripting tags.,0
+<input type='text' onfocus='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Normal text without any scripting tags.,0
+Plain text data with no embedded scripts.,0
+A simple sentence without harmful elements.,0
+<img src='x' onerror='alert(1)'>,1
+<script>alert('XSS')</script>,1
+Plain text data with no embedded scripts.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<svg onload='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<script>alert('XSS')</script>,1
+A simple sentence without harmful elements.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+"Hello, this is a safe text.",0
+This is an example of plain text content.,0
+<svg onload='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<svg onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+"Hello, this is a safe text.",0
+<iframe src='javascript:alert(1)'></iframe>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<img src='x' onerror='alert(1)'>,1
+Normal text without any scripting tags.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+A simple sentence without harmful elements.,0
+<input type='text' onfocus='alert(1)'>,1
+This is an example of plain text content.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<svg onload='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<input type='text' onfocus='alert(1)'>,1
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<svg onload='alert(1)'>,1
+Here is another example of safe input.,0
+This is an example of plain text content.,0
+Plain text data with no embedded scripts.,0
+<svg onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+A simple sentence without harmful elements.,0
+This is an example of plain text content.,0
+This is an example of plain text content.,0
+"Hello, this is a safe text.",0
+Here is another example of safe input.,0
+This is an example of plain text content.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<iframe src='javascript:alert(1)'></iframe>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"Hello, this is a safe text.",0
+Text here is just a harmless message.,0
+Normal text without any scripting tags.,0
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+<svg onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='text' onfocus='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+Text here is just a harmless message.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Text here is just a harmless message.,0
+Text here is just a harmless message.,0
+"Hello, this is a safe text.",0
+This is an example of plain text content.,0
+<script>alert('XSS')</script>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<script>alert('XSS')</script>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+A simple sentence without harmful elements.,0
+"Hello, this is a safe text.",0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+This is an example of plain text content.,0
+A simple sentence without harmful elements.,0
+Plain text data with no embedded scripts.,0
+<input type='text' onfocus='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Plain text data with no embedded scripts.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+"Hello, this is a safe text.",0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Normal text without any scripting tags.,0
+<input type='text' onfocus='alert(1)'>,1
+"Hello, this is a safe text.",0
+"<body onload='alert(""XSS"")'>",1
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+"Hello, this is a safe text.",0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<script>alert('XSS')</script>,1
+<svg onload='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Text here is just a harmless message.,0
+Normal text without any scripting tags.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+This is an example of plain text content.,0
+Text here is just a harmless message.,0
+<svg onload='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Text here is just a harmless message.,0
+A simple sentence without harmful elements.,0
+Plain text data with no embedded scripts.,0
+Normal text without any scripting tags.,0
+Text here is just a harmless message.,0
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<svg onload='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+A simple sentence without harmful elements.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<svg onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+Here is another example of safe input.,0
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<img src='x' onerror='alert(1)'>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<iframe src='javascript:alert(1)'></iframe>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Normal text without any scripting tags.,0
+"<body onload='alert(""XSS"")'>",1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Normal text without any scripting tags.,0
+<svg onload='alert(1)'>,1
+A simple sentence without harmful elements.,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='text' onfocus='alert(1)'>,1
+Here is another example of safe input.,0
+A simple sentence without harmful elements.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Normal text without any scripting tags.,0
+This is an example of plain text content.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Text here is just a harmless message.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+"Hello, this is a safe text.",0
+This is an example of plain text content.,0
+"Hello, this is a safe text.",0
+<img src='x' onerror='alert(1)'>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"Hello, this is a safe text.",0
+<script>alert('XSS')</script>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+Even more random: 3498429384kdjshfjkhsdfj234,0
+Text here is just a harmless message.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+"<body onload='alert(""XSS"")'>",1
+Normal text without any scripting tags.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<a href='javascript:alert(1)'>Click me</a>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+"Hello, this is a safe text.",0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Here is another example of safe input.,0
+This is an example of plain text content.,0
+Text here is just a harmless message.,0
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<iframe src='javascript:alert(1)'></iframe>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+A simple sentence without harmful elements.,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+Plain text data with no embedded scripts.,0
+<img src='x' onerror='alert(1)'>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+<a href='javascript:alert(1)'>Click me</a>,1
+<input type='text' onfocus='alert(1)'>,1
+Normal text without any scripting tags.,0
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+Here is another example of safe input.,0
+<iframe src='javascript:alert(1)'></iframe>,1
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901,0
+"<body onload='alert(""XSS"")'>",1
+Random characters and numbers: 98374lajsdhlksjflksjdf,0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+"Hello, this is a safe text.",0
+<img src='x' onerror='alert(1)'>,1
+Here is another example of safe input.,0
+Plain text data with no embedded scripts.,0
+<script>alert('XSS')</script>,1
+<a href='javascript:alert(1)'>Click me</a>,1
+"<body onload='alert(""XSS"")'>",1
+<script>alert('XSS')</script>,1
+Normal text without any scripting tags.,0
+Here is another example of safe input.,0
+Normal text without any scripting tags.,0
+This is an example of plain text content.,0
+<script>alert('XSS')</script>,1
+Plain text data with no embedded scripts.,0
+"<body onload='alert(""XSS"")'>",1
+"Hello, this is a safe text.",0
+Here is another example of safe input.,0
+<svg onload='alert(1)'>,1
+"Hello, this is a safe text.",0
+"Hello, this is a safe text.",0
+Text here is just a harmless message.,0
+This is an example of plain text content.,0
+"Hello, this is a safe text.",0
+<input type='button' value='Click me' onclick='alert(1)'>,1
+<img src='x' onerror='this.src=1' onload='alert(1)'>,1
+<script>alert('XSS')</script>,1
+"<body onload='alert(""XSS"")'>",1
+<img src='x' onerror='alert(1)'>,1
+<marquee behavior='alternate' onstart='alert(1)'>XSS</marquee>,1
+<iframe src='javascript:alert(1)'></iframe>,1

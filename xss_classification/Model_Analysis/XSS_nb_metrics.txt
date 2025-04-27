@@ -1,0 +1,4 @@
+Model: Naive Bayes
+Accuracy: 0.8830
+F1 Score: 0.8948
+AUC: 0.8830

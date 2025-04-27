@@ -1,0 +1,4 @@
+Model: Quadratic Discriminant Analysis
+Accuracy: 0.7468
+F1 Score: 0.7680
+AUC: 0.8806

@@ -1,0 +1,4 @@
+Model: Linear Discriminant Analysis
+Accuracy: 0.4957
+F1 Score: 0.4957
+AUC: 0.4989

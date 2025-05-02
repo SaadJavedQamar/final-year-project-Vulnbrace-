@@ -1,0 +1,4 @@
+Model: K Neighbors Classifier
+Accuracy: 0.9684
+F1 Score: 0.9677
+AUC: 0.9882

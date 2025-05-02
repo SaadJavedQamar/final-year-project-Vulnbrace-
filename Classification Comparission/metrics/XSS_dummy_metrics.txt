@@ -1,0 +1,4 @@
+Model: Dummy Classifier
+Accuracy: 0.4999
+F1 Score: 0.0666
+AUC: 0.5000

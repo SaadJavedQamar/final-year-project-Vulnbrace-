@@ -1,0 +1,2 @@
+Metric,Non-Malicious Precision,Non-Malicious Recall,Non-Malicious F1,Malicious Precision,Malicious Recall,Malicious F1,Overall Accuracy
+Accuracy,1.0,0.806,0.8925802879291251,0.8375209380234506,1.0,0.9115770282588879,0.903

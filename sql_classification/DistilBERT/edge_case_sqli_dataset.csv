@@ -1,0 +1,4001 @@
+Query,Label
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+'; exec xp_cmdshell('dir')--,1
+john.doe92,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+admin' OR 'x'='x'; --,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+admin' OR 'x'='x'; --,1
+""" or 1=1;--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+admin,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+example_query,0
+update users set name='john' where id=1,0
+"' union select 1,2,3,@@version--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+admin' and 1=2 union select null--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT email FROM users WHERE id = 10,0
+""" or 1=1;--",1
+normalUser,0
+"' union select 1,2,3,@@version--",1
+SELECT * FROM products WHERE price < 100,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT version();,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+example_query,0
+SELECT * FROM table WHERE col = 'value',0
+contact@domain.com,0
+1 and 1=1--,1
+1 and 1=1--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+admin,0
+john.doe92,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT * FROM products WHERE price < 100,0
+"' union select 1,2,3,@@version--",1
+contact@domain.com,0
+admin,0
+'; exec xp_cmdshell('dir')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+1 and 1=1--,1
+example_query,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' and sleep(5)--,1
+'; exec xp_cmdshell('dir')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT email FROM users WHERE id = 10,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM table WHERE col = 'value',0
+admin,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+1 and 1=1--,1
+example_query,0
+SELECT version();,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' and sleep(5)--,1
+update users set name='john' where id=1,0
+"' union select 1,2,3,@@version--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+admin' and 1=2 union select null--,1
+example_query,0
+example_query,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+1 and 1=1--,1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1';WAITFOR DELAY '0:0:5'--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' and sleep(5)--,1
+example_query,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+'; exec xp_cmdshell('dir')--,1
+'; exec xp_cmdshell('dir')--,1
+SELECT name FROM items WHERE quantity < 20,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT version();,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT * FROM products WHERE price < 100,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT version();,0
+SELECT name FROM customers WHERE id = 5,0
+'; exec xp_cmdshell('dir')--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+admin' OR 'x'='x'; --,1
+1' or '1'='1' --,1
+admin,0
+'||(SELECT load_file('/etc/passwd'))||',1
+'||(SELECT load_file('/etc/passwd'))||',1
+""" or 1=1;--",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT * FROM users WHERE email = 'user@example.com',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+update users set name='john' where id=1,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+1';WAITFOR DELAY '0:0:5'--,1
+update users set name='john' where id=1,0
+normalUser,0
+SELECT name FROM customers WHERE id = 5,0
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+admin' and 1=2 union select null--,1
+' and sleep(5)--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+admin' and 1=2 union select null--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT * FROM table WHERE col = 'value',0
+admin' OR 'x'='x'; --,1
+SELECT COUNT(*) FROM employees,0
+admin,0
+SELECT * FROM table WHERE col = 'value',0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM products WHERE price < 100,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT version();,0
+SELECT email FROM users WHERE id = 10,0
+normalUser,0
+SELECT email FROM users WHERE id = 10,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+john.doe92,0
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM products WHERE price < 100,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1 and 1=1--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' and sleep(5)--,1
+' and sleep(5)--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT version();,0
+""" or 1=1;--",1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM table WHERE col = 'value',0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT name FROM customers WHERE id = 5,0
+example_query,0
+example_query,0
+1';WAITFOR DELAY '0:0:5'--,1
+johnsmith,0
+SELECT * FROM accounts WHERE balance > 5000,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT email FROM users WHERE id = 10,0
+johnsmith,0
+example_query,0
+SELECT name FROM items WHERE quantity < 20,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT name FROM items WHERE quantity < 20,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+johnsmith,0
+1 and 1=1--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM table WHERE col = 'value',0
+admin' and 1=2 union select null--,1
+contact@domain.com,0
+""" or 1=1;--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+john.doe92,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+1 and 1=1--,1
+update users set name='john' where id=1,0
+example_query,0
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM accounts WHERE balance > 5000,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' OR 'x'='x'; --,1
+SELECT version();,0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT name FROM items WHERE quantity < 20,0
+' and sleep(5)--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+normalUser,0
+johnsmith,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM table WHERE col = 'value',0
+"SELECT id, email FROM users WHERE status='active'",0
+"' AND MID(VERSION(),1,1) = '5' --",1
+john.doe92,0
+SELECT COUNT(*) FROM employees,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+""" or 1=1;--",1
+SELECT email FROM users WHERE id = 10,0
+contact@domain.com,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+john.doe92,0
+example_query,0
+'||(SELECT load_file('/etc/passwd'))||',1
+"' union select 1,2,3,@@version--",1
+update users set name='john' where id=1,0
+SELECT name FROM customers WHERE id = 5,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT version();,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+john.doe92,0
+SELECT name FROM customers WHERE id = 5,0
+1' or '1'='1' --,1
+admin' OR 'x'='x'; --,1
+example_query,0
+SELECT * FROM table WHERE col = 'value',0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT email FROM users WHERE id = 10,0
+'||(SELECT load_file('/etc/passwd'))||',1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT COUNT(*) FROM employees,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+contact@domain.com,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT version();,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+normalUser,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+admin' OR 'x'='x'; --,1
+SELECT name FROM customers WHERE id = 5,0
+1' or '1'='1' --,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM table WHERE col = 'value',0
+admin,0
+normalUser,0
+SELECT COUNT(*) FROM employees,0
+' and sleep(5)--,1
+example_query,0
+contact@domain.com,0
+admin' OR 'x'='x'; --,1
+1' or '1'='1' --,1
+""" or 1=1;--",1
+admin,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+john.doe92,0
+SELECT version();,0
+contact@domain.com,0
+update users set name='john' where id=1,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT name FROM customers WHERE id = 5,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT name FROM customers WHERE id = 5,0
+johnsmith,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+contact@domain.com,0
+admin' and 1=2 union select null--,1
+SELECT email FROM users WHERE id = 10,0
+contact@domain.com,0
+1' or '1'='1' --,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+update users set name='john' where id=1,0
+1' or '1'='1' --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+john.doe92,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+normalUser,0
+' and sleep(5)--,1
+"' union select 1,2,3,@@version--",1
+SELECT * FROM table WHERE col = 'value',0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT email FROM users WHERE id = 10,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+contact@domain.com,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+1';WAITFOR DELAY '0:0:5'--,1
+1' or '1'='1' --,1
+1';WAITFOR DELAY '0:0:5'--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+""" or 1=1;--",1
+SELECT name FROM items WHERE quantity < 20,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+johnsmith,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT COUNT(*) FROM employees,0
+SELECT COUNT(*) FROM employees,0
+"' union select 1,2,3,@@version--",1
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+1 and 1=1--,1
+admin,0
+'||(SELECT load_file('/etc/passwd'))||',1
+update users set name='john' where id=1,0
+johnsmith,0
+admin,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM products WHERE price < 100,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+admin' and 1=2 union select null--,1
+example_query,0
+admin' OR 'x'='x'; --,1
+SELECT * FROM products WHERE price < 100,0
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' OR 'x'='x'; --,1
+SELECT COUNT(*) FROM employees,0
+SELECT email FROM users WHERE id = 10,0
+admin' OR 'x'='x'; --,1
+admin' OR 'x'='x'; --,1
+SELECT version();,0
+normalUser,0
+update users set name='john' where id=1,0
+admin,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM accounts WHERE balance > 5000,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+1 and 1=1--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT name FROM customers WHERE id = 5,0
+1' or '1'='1' --,1
+SELECT * FROM accounts WHERE balance > 5000,0
+""" or 1=1;--",1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT name FROM customers WHERE id = 5,0
+1';WAITFOR DELAY '0:0:5'--,1
+admin' OR 'x'='x'; --,1
+SELECT * FROM table WHERE col = 'value',0
+' and sleep(5)--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+john.doe92,0
+1 and 1=1--,1
+normalUser,0
+1';WAITFOR DELAY '0:0:5'--,1
+1' or '1'='1' --,1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+john.doe92,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM table WHERE col = 'value',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+contact@domain.com,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+'||(SELECT load_file('/etc/passwd'))||',1
+example_query,0
+' and sleep(5)--,1
+"' union select 1,2,3,@@version--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT name FROM items WHERE quantity < 20,0
+admin,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+example_query,0
+contact@domain.com,0
+SELECT * FROM table WHERE col = 'value',0
+"' union select 1,2,3,@@version--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+johnsmith,0
+admin' OR 'x'='x'; --,1
+"' union select 1,2,3,@@version--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+normalUser,0
+SELECT * FROM products WHERE price < 100,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+admin' OR 'x'='x'; --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+update users set name='john' where id=1,0
+'||(SELECT load_file('/etc/passwd'))||',1
+"SELECT id, email FROM users WHERE status='active'",0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+'; exec xp_cmdshell('dir')--,1
+normalUser,0
+1' or '1'='1' --,1
+admin' and 1=2 union select null--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+""" or 1=1;--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+1' or '1'='1' --,1
+example_query,0
+SELECT COUNT(*) FROM employees,0
+SELECT email FROM users WHERE id = 10,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+1 and 1=1--,1
+johnsmith,0
+"' union select 1,2,3,@@version--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT * FROM accounts WHERE balance > 5000,0
+""" or 1=1;--",1
+SELECT email FROM users WHERE id = 10,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1 and 1=1--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT email FROM users WHERE id = 10,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM products WHERE price < 100,0
+""" or 1=1;--",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+update users set name='john' where id=1,0
+1';WAITFOR DELAY '0:0:5'--,1
+admin,0
+SELECT name FROM customers WHERE id = 5,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' union select 1,2,3,@@version--",1
+SELECT COUNT(*) FROM employees,0
+SELECT version();,0
+admin' OR 'x'='x'; --,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM table WHERE col = 'value',0
+1';WAITFOR DELAY '0:0:5'--,1
+1 and 1=1--,1
+SELECT name FROM customers WHERE id = 5,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT name FROM items WHERE quantity < 20,0
+1';WAITFOR DELAY '0:0:5'--,1
+1 and 1=1--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT email FROM users WHERE id = 10,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+admin' and 1=2 union select null--,1
+' and sleep(5)--,1
+contact@domain.com,0
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM products WHERE price < 100,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+1 and 1=1--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+johnsmith,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+example_query,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM table WHERE col = 'value',0
+' and sleep(5)--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM table WHERE col = 'value',0
+example_query,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT version();,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+johnsmith,0
+admin' and 1=2 union select null--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+admin' OR 'x'='x'; --,1
+SELECT * FROM accounts WHERE balance > 5000,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+admin' OR 'x'='x'; --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+normalUser,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT version();,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT email FROM users WHERE id = 10,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM table WHERE col = 'value',0
+1';WAITFOR DELAY '0:0:5'--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+admin,0
+SELECT * FROM accounts WHERE balance > 5000,0
+1 and 1=1--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+admin' OR 'x'='x'; --,1
+admin,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'; exec xp_cmdshell('dir')--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+""" or 1=1;--",1
+"' union select 1,2,3,@@version--",1
+johnsmith,0
+johnsmith,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+example_query,0
+SELECT COUNT(*) FROM employees,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+1';WAITFOR DELAY '0:0:5'--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+""" or 1=1;--",1
+SELECT email FROM users WHERE id = 10,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+1 and 1=1--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+admin,0
+normalUser,0
+admin' and 1=2 union select null--,1
+johnsmith,0
+SELECT * FROM products WHERE price < 100,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM table WHERE col = 'value',0
+update users set name='john' where id=1,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' union select 1,2,3,@@version--",1
+1 and 1=1--,1
+"' union select 1,2,3,@@version--",1
+johnsmith,0
+update users set name='john' where id=1,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM products WHERE price < 100,0
+SELECT COUNT(*) FROM employees,0
+admin' and 1=2 union select null--,1
+SELECT version();,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+admin,0
+SELECT name FROM items WHERE quantity < 20,0
+' and sleep(5)--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"SELECT id, email FROM users WHERE status='active'",0
+johnsmith,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT name FROM items WHERE quantity < 20,0
+"' union select 1,2,3,@@version--",1
+1' or '1'='1' --,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' union select 1,2,3,@@version--",1
+1' or '1'='1' --,1
+1' or '1'='1' --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+admin,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+john.doe92,0
+update users set name='john' where id=1,0
+SELECT * FROM products WHERE price < 100,0
+SELECT email FROM users WHERE id = 10,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT email FROM users WHERE id = 10,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+1 and 1=1--,1
+"' union select 1,2,3,@@version--",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT * FROM accounts WHERE balance > 5000,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' and sleep(5)--,1
+SELECT COUNT(*) FROM employees,0
+1' or '1'='1' --,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+johnsmith,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' and sleep(5)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM accounts WHERE balance > 5000,0
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+normalUser,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' and sleep(5)--,1
+SELECT version();,0
+SELECT * FROM products WHERE price < 100,0
+john.doe92,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' AND MID(VERSION(),1,1) = '5' --",1
+'||(SELECT load_file('/etc/passwd'))||',1
+1';WAITFOR DELAY '0:0:5'--,1
+"SELECT id, email FROM users WHERE status='active'",0
+contact@domain.com,0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+update users set name='john' where id=1,0
+SELECT version();,0
+"SELECT id, email FROM users WHERE status='active'",0
+contact@domain.com,0
+update users set name='john' where id=1,0
+update users set name='john' where id=1,0
+'; exec xp_cmdshell('dir')--,1
+contact@domain.com,0
+""" or 1=1;--",1
+contact@domain.com,0
+update users set name='john' where id=1,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM products WHERE price < 100,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+john.doe92,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT name FROM customers WHERE id = 5,0
+SELECT email FROM users WHERE id = 10,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+contact@domain.com,0
+"SELECT id, email FROM users WHERE status='active'",0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT * FROM accounts WHERE balance > 5000,0
+"' union select 1,2,3,@@version--",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+'; exec xp_cmdshell('dir')--,1
+admin' OR 'x'='x'; --,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' and sleep(5)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+""" or 1=1;--",1
+SELECT version();,0
+'; exec xp_cmdshell('dir')--,1
+' and sleep(5)--,1
+example_query,0
+admin,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM products WHERE price < 100,0
+1' or '1'='1' --,1
+1';WAITFOR DELAY '0:0:5'--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+admin,0
+john.doe92,0
+'||(SELECT load_file('/etc/passwd'))||',1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' OR 'x'='x'; --,1
+example_query,0
+SELECT * FROM products WHERE price < 100,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT name FROM customers WHERE id = 5,0
+admin,0
+'||(SELECT load_file('/etc/passwd'))||',1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT name FROM items WHERE quantity < 20,0
+johnsmith,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+admin' and 1=2 union select null--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+1';WAITFOR DELAY '0:0:5'--,1
+update users set name='john' where id=1,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+contact@domain.com,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+1 and 1=1--,1
+SELECT name FROM items WHERE quantity < 20,0
+johnsmith,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1' or '1'='1' --,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+1';WAITFOR DELAY '0:0:5'--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+admin' and 1=2 union select null--,1
+SELECT email FROM users WHERE id = 10,0
+SELECT email FROM users WHERE id = 10,0
+example_query,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT email FROM users WHERE id = 10,0
+SELECT COUNT(*) FROM employees,0
+admin' and 1=2 union select null--,1
+contact@domain.com,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT name FROM customers WHERE id = 5,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+admin' and 1=2 union select null--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin' and 1=2 union select null--,1
+SELECT COUNT(*) FROM employees,0
+'; exec xp_cmdshell('dir')--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"SELECT id, email FROM users WHERE status='active'",0
+admin' and 1=2 union select null--,1
+' and sleep(5)--,1
+"SELECT id, email FROM users WHERE status='active'",0
+johnsmith,0
+SELECT * FROM accounts WHERE balance > 5000,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+'; exec xp_cmdshell('dir')--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"SELECT id, email FROM users WHERE status='active'",0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+admin' and 1=2 union select null--,1
+SELECT COUNT(*) FROM employees,0
+admin' OR 'x'='x'; --,1
+SELECT version();,0
+normalUser,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+update users set name='john' where id=1,0
+SELECT * FROM products WHERE price < 100,0
+SELECT name FROM customers WHERE id = 5,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT name FROM items WHERE quantity < 20,0
+admin' OR 'x'='x'; --,1
+' and sleep(5)--,1
+""" or 1=1;--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+admin' and 1=2 union select null--,1
+' and sleep(5)--,1
+"' union select 1,2,3,@@version--",1
+contact@domain.com,0
+' and sleep(5)--,1
+contact@domain.com,0
+SELECT name FROM items WHERE quantity < 20,0
+""" or 1=1;--",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+admin' and 1=2 union select null--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+normalUser,0
+contact@domain.com,0
+""" or 1=1;--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+1' or '1'='1' --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+admin' and 1=2 union select null--,1
+1 and 1=1--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' and 1=2 union select null--,1
+' and sleep(5)--,1
+' and sleep(5)--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM products WHERE price < 100,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' OR 'x'='x'; --,1
+contact@domain.com,0
+normalUser,0
+admin,0
+SELECT version();,0
+1';WAITFOR DELAY '0:0:5'--,1
+update users set name='john' where id=1,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+example_query,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT email FROM users WHERE id = 10,0
+SELECT name FROM customers WHERE id = 5,0
+SELECT name FROM customers WHERE id = 5,0
+1';WAITFOR DELAY '0:0:5'--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT email FROM users WHERE id = 10,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' union select 1,2,3,@@version--",1
+SELECT COUNT(*) FROM employees,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT version();,0
+example_query,0
+' and sleep(5)--,1
+1' or '1'='1' --,1
+SELECT COUNT(*) FROM employees,0
+"SELECT id, email FROM users WHERE status='active'",0
+john.doe92,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'; exec xp_cmdshell('dir')--,1
+"' union select 1,2,3,@@version--",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+admin,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM accounts WHERE balance > 5000,0
+1 and 1=1--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+'; exec xp_cmdshell('dir')--,1
+SELECT COUNT(*) FROM employees,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+normalUser,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM table WHERE col = 'value',0
+SELECT email FROM users WHERE id = 10,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT version();,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT name FROM customers WHERE id = 5,0
+admin' OR 'x'='x'; --,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"SELECT id, email FROM users WHERE status='active'",0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+john.doe92,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+""" or 1=1;--",1
+john.doe92,0
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT version();,0
+john.doe92,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+1 and 1=1--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin' OR 'x'='x'; --,1
+update users set name='john' where id=1,0
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT COUNT(*) FROM employees,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+johnsmith,0
+admin,0
+admin' and 1=2 union select null--,1
+1' or '1'='1' --,1
+SELECT * FROM products WHERE price < 100,0
+1';WAITFOR DELAY '0:0:5'--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' union select 1,2,3,@@version--",1
+""" or 1=1;--",1
+'; exec xp_cmdshell('dir')--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+normalUser,0
+1' or '1'='1' --,1
+1';WAITFOR DELAY '0:0:5'--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' union select 1,2,3,@@version--",1
+normalUser,0
+1 and 1=1--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+contact@domain.com,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+'||(SELECT load_file('/etc/passwd'))||',1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+'; exec xp_cmdshell('dir')--,1
+1 and 1=1--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+"SELECT id, email FROM users WHERE status='active'",0
+john.doe92,0
+contact@domain.com,0
+SELECT name FROM items WHERE quantity < 20,0
+johnsmith,0
+""" or 1=1;--",1
+"' union select 1,2,3,@@version--",1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT name FROM items WHERE quantity < 20,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' and sleep(5)--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+'; exec xp_cmdshell('dir')--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' union select 1,2,3,@@version--",1
+admin,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT name FROM customers WHERE id = 5,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+update users set name='john' where id=1,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM accounts WHERE balance > 5000,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT name FROM customers WHERE id = 5,0
+SELECT name FROM customers WHERE id = 5,0
+""" or 1=1;--",1
+admin' and 1=2 union select null--,1
+1 and 1=1--,1
+normalUser,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM table WHERE col = 'value',0
+contact@domain.com,0
+admin' OR 'x'='x'; --,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM table WHERE col = 'value',0
+admin' OR 'x'='x'; --,1
+admin,0
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM table WHERE col = 'value',0
+'; exec xp_cmdshell('dir')--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT COUNT(*) FROM employees,0
+johnsmith,0
+SELECT email FROM users WHERE id = 10,0
+example_query,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+example_query,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+admin' OR 'x'='x'; --,1
+admin' OR 'x'='x'; --,1
+""" or 1=1;--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT COUNT(*) FROM employees,0
+example_query,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT COUNT(*) FROM employees,0
+"' union select 1,2,3,@@version--",1
+update users set name='john' where id=1,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' and sleep(5)--,1
+SELECT * FROM table WHERE col = 'value',0
+' and sleep(5)--,1
+admin' and 1=2 union select null--,1
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM accounts WHERE balance > 5000,0
+example_query,0
+admin' OR 'x'='x'; --,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM products WHERE price < 100,0
+update users set name='john' where id=1,0
+SELECT * FROM products WHERE price < 100,0
+""" or 1=1;--",1
+' and sleep(5)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT name FROM customers WHERE id = 5,0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM products WHERE price < 100,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+""" or 1=1;--",1
+"' union select 1,2,3,@@version--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+example_query,0
+admin,0
+'; exec xp_cmdshell('dir')--,1
+"SELECT id, email FROM users WHERE status='active'",0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+"' union select 1,2,3,@@version--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+admin' OR 'x'='x'; --,1
+' and sleep(5)--,1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT name FROM customers WHERE id = 5,0
+SELECT version();,0
+'||(SELECT load_file('/etc/passwd'))||',1
+johnsmith,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+example_query,0
+SELECT name FROM customers WHERE id = 5,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+update users set name='john' where id=1,0
+SELECT version();,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT name FROM items WHERE quantity < 20,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+1 and 1=1--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+normalUser,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+admin' and 1=2 union select null--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM table WHERE col = 'value',0
+admin' OR 'x'='x'; --,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT version();,0
+contact@domain.com,0
+1' or '1'='1' --,1
+admin' and 1=2 union select null--,1
+"SELECT id, email FROM users WHERE status='active'",0
+"' union select 1,2,3,@@version--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+admin,0
+' and sleep(5)--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+normalUser,0
+1' or '1'='1' --,1
+SELECT name FROM customers WHERE id = 5,0
+"' union select 1,2,3,@@version--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+johnsmith,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT name FROM customers WHERE id = 5,0
+'; exec xp_cmdshell('dir')--,1
+1 and 1=1--,1
+' and sleep(5)--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT name FROM customers WHERE id = 5,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+""" or 1=1;--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+admin' and 1=2 union select null--,1
+update users set name='john' where id=1,0
+admin' OR 'x'='x'; --,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT COUNT(*) FROM employees,0
+'; exec xp_cmdshell('dir')--,1
+update users set name='john' where id=1,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' and sleep(5)--,1
+admin' OR 'x'='x'; --,1
+'; exec xp_cmdshell('dir')--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM products WHERE price < 100,0
+SELECT name FROM customers WHERE id = 5,0
+johnsmith,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT email FROM users WHERE id = 10,0
+SELECT name FROM customers WHERE id = 5,0
+contact@domain.com,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT name FROM customers WHERE id = 5,0
+admin,0
+1 and 1=1--,1
+SELECT COUNT(*) FROM employees,0
+"SELECT id, email FROM users WHERE status='active'",0
+contact@domain.com,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT name FROM items WHERE quantity < 20,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT name FROM customers WHERE id = 5,0
+SELECT * FROM products WHERE price < 100,0
+admin' and 1=2 union select null--,1
+'; exec xp_cmdshell('dir')--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT email FROM users WHERE id = 10,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+normalUser,0
+1 and 1=1--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+1' or '1'='1' --,1
+SELECT name FROM items WHERE quantity < 20,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT version();,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT email FROM users WHERE id = 10,0
+SELECT version();,0
+johnsmith,0
+SELECT COUNT(*) FROM employees,0
+"' union select 1,2,3,@@version--",1
+update users set name='john' where id=1,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT version();,0
+update users set name='john' where id=1,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT COUNT(*) FROM employees,0
+' and sleep(5)--,1
+contact@domain.com,0
+"SELECT id, email FROM users WHERE status='active'",0
+admin,0
+1' or '1'='1' --,1
+1' or '1'='1' --,1
+'; exec xp_cmdshell('dir')--,1
+john.doe92,0
+SELECT email FROM users WHERE id = 10,0
+admin,0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT version();,0
+1' or '1'='1' --,1
+admin,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT COUNT(*) FROM employees,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT name FROM items WHERE quantity < 20,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM table WHERE col = 'value',0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' union select 1,2,3,@@version--",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+admin' and 1=2 union select null--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+1' or '1'='1' --,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+normalUser,0
+""" or 1=1;--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM table WHERE col = 'value',0
+1 and 1=1--,1
+update users set name='john' where id=1,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM table WHERE col = 'value',0
+""" or 1=1;--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+admin,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+admin,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+contact@domain.com,0
+admin' and 1=2 union select null--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"SELECT id, email FROM users WHERE status='active'",0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+admin,0
+' and sleep(5)--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND MID(VERSION(),1,1) = '5' --",1
+1' or '1'='1' --,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+1' or '1'='1' --,1
+'; exec xp_cmdshell('dir')--,1
+'; exec xp_cmdshell('dir')--,1
+' and sleep(5)--,1
+example_query,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+'; exec xp_cmdshell('dir')--,1
+SELECT name FROM items WHERE quantity < 20,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+contact@domain.com,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+"SELECT id, email FROM users WHERE status='active'",0
+normalUser,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+example_query,0
+example_query,0
+1';WAITFOR DELAY '0:0:5'--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"SELECT id, email FROM users WHERE status='active'",0
+johnsmith,0
+' and sleep(5)--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM table WHERE col = 'value',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT COUNT(*) FROM employees,0
+admin' and 1=2 union select null--,1
+'; exec xp_cmdshell('dir')--,1
+SELECT name FROM items WHERE quantity < 20,0
+"' union select 1,2,3,@@version--",1
+example_query,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+1 and 1=1--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+1 and 1=1--,1
+""" or 1=1;--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+'||(SELECT load_file('/etc/passwd'))||',1
+example_query,0
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+admin' and 1=2 union select null--,1
+' and sleep(5)--,1
+admin,0
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+admin' and 1=2 union select null--,1
+SELECT COUNT(*) FROM employees,0
+admin' and 1=2 union select null--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+update users set name='john' where id=1,0
+normalUser,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT name FROM items WHERE quantity < 20,0
+"SELECT id, email FROM users WHERE status='active'",0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT COUNT(*) FROM employees,0
+' and sleep(5)--,1
+"' union select 1,2,3,@@version--",1
+' and sleep(5)--,1
+SELECT * FROM products WHERE price < 100,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+example_query,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+contact@domain.com,0
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM accounts WHERE balance > 5000,0
+john.doe92,0
+'||(SELECT load_file('/etc/passwd'))||',1
+1';WAITFOR DELAY '0:0:5'--,1
+admin,0
+example_query,0
+example_query,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND MID(VERSION(),1,1) = '5' --",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"' union select 1,2,3,@@version--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+admin' OR 'x'='x'; --,1
+SELECT version();,0
+SELECT * FROM products WHERE price < 100,0
+SELECT version();,0
+'; exec xp_cmdshell('dir')--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+contact@domain.com,0
+johnsmith,0
+1';WAITFOR DELAY '0:0:5'--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+""" or 1=1;--",1
+john.doe92,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM table WHERE col = 'value',0
+1 and 1=1--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+1';WAITFOR DELAY '0:0:5'--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+contact@domain.com,0
+admin' OR 'x'='x'; --,1
+admin' and 1=2 union select null--,1
+john.doe92,0
+SELECT email FROM users WHERE id = 10,0
+""" or 1=1;--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT * FROM table WHERE col = 'value',0
+SELECT COUNT(*) FROM employees,0
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM products WHERE price < 100,0
+SELECT COUNT(*) FROM employees,0
+"SELECT id, email FROM users WHERE status='active'",0
+'; exec xp_cmdshell('dir')--,1
+johnsmith,0
+""" or 1=1;--",1
+SELECT version();,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"SELECT id, email FROM users WHERE status='active'",0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM products WHERE price < 100,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT version();,0
+john.doe92,0
+SELECT * FROM products WHERE price < 100,0
+john.doe92,0
+SELECT version();,0
+"SELECT id, email FROM users WHERE status='active'",0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT name FROM customers WHERE id = 5,0
+admin,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+example_query,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+1';WAITFOR DELAY '0:0:5'--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT name FROM customers WHERE id = 5,0
+SELECT version();,0
+admin' OR 'x'='x'; --,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+update users set name='john' where id=1,0
+'||(SELECT load_file('/etc/passwd'))||',1
+admin' OR 'x'='x'; --,1
+"SELECT id, email FROM users WHERE status='active'",0
+1' or '1'='1' --,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+admin' and 1=2 union select null--,1
+john.doe92,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT * FROM products WHERE price < 100,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+1 and 1=1--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin,0
+admin' and 1=2 union select null--,1
+SELECT name FROM items WHERE quantity < 20,0
+admin,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'; exec xp_cmdshell('dir')--,1
+admin,0
+contact@domain.com,0
+admin' and 1=2 union select null--,1
+""" or 1=1;--",1
+SELECT name FROM customers WHERE id = 5,0
+SELECT name FROM items WHERE quantity < 20,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+""" or 1=1;--",1
+' and sleep(5)--,1
+1' or '1'='1' --,1
+SELECT * FROM accounts WHERE balance > 5000,0
+""" or 1=1;--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+admin,0
+SELECT email FROM users WHERE id = 10,0
+""" or 1=1;--",1
+normalUser,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT COUNT(*) FROM employees,0
+normalUser,0
+'||(SELECT load_file('/etc/passwd'))||',1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT COUNT(*) FROM employees,0
+admin,0
+' and sleep(5)--,1
+admin' OR 'x'='x'; --,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+normalUser,0
+admin' and 1=2 union select null--,1
+contact@domain.com,0
+' and sleep(5)--,1
+SELECT version();,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' and sleep(5)--,1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT version();,0
+1 and 1=1--,1
+SELECT * FROM products WHERE price < 100,0
+SELECT name FROM customers WHERE id = 5,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+"' union select 1,2,3,@@version--",1
+' and sleep(5)--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT COUNT(*) FROM employees,0
+update users set name='john' where id=1,0
+admin' OR 'x'='x'; --,1
+' and sleep(5)--,1
+SELECT email FROM users WHERE id = 10,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+johnsmith,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT name FROM customers WHERE id = 5,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' and 1=2 union select null--,1
+normalUser,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT name FROM customers WHERE id = 5,0
+example_query,0
+""" or 1=1;--",1
+"SELECT id, email FROM users WHERE status='active'",0
+"' AND MID(VERSION(),1,1) = '5' --",1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+contact@domain.com,0
+john.doe92,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+john.doe92,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM products WHERE price < 100,0
+example_query,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+update users set name='john' where id=1,0
+SELECT COUNT(*) FROM employees,0
+john.doe92,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+example_query,0
+SELECT COUNT(*) FROM employees,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' and 1=2 union select null--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' and 1=2 union select null--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT name FROM items WHERE quantity < 20,0
+admin' and 1=2 union select null--,1
+""" or 1=1;--",1
+1';WAITFOR DELAY '0:0:5'--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM products WHERE price < 100,0
+' and sleep(5)--,1
+admin' and 1=2 union select null--,1
+SELECT name FROM customers WHERE id = 5,0
+SELECT name FROM items WHERE quantity < 20,0
+update users set name='john' where id=1,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT name FROM items WHERE quantity < 20,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+john.doe92,0
+john.doe92,0
+normalUser,0
+update users set name='john' where id=1,0
+1' or '1'='1' --,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+1' or '1'='1' --,1
+1';WAITFOR DELAY '0:0:5'--,1
+example_query,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+"SELECT id, email FROM users WHERE status='active'",0
+""" or 1=1;--",1
+SELECT * FROM table WHERE col = 'value',0
+normalUser,0
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+admin,0
+SELECT * FROM accounts WHERE balance > 5000,0
+"' union select 1,2,3,@@version--",1
+1';WAITFOR DELAY '0:0:5'--,1
+normalUser,0
+SELECT email FROM users WHERE id = 10,0
+1';WAITFOR DELAY '0:0:5'--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"SELECT id, email FROM users WHERE status='active'",0
+update users set name='john' where id=1,0
+'; exec xp_cmdshell('dir')--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'; exec xp_cmdshell('dir')--,1
+update users set name='john' where id=1,0
+SELECT name FROM customers WHERE id = 5,0
+"' union select 1,2,3,@@version--",1
+example_query,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+""" or 1=1;--",1
+johnsmith,0
+john.doe92,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+'||(SELECT load_file('/etc/passwd'))||',1
+1 and 1=1--,1
+"' union select 1,2,3,@@version--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+contact@domain.com,0
+admin' OR 'x'='x'; --,1
+SELECT email FROM users WHERE id = 10,0
+SELECT name FROM items WHERE quantity < 20,0
+contact@domain.com,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT name FROM items WHERE quantity < 20,0
+"' union select 1,2,3,@@version--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT * FROM accounts WHERE balance > 5000,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT COUNT(*) FROM employees,0
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT name FROM items WHERE quantity < 20,0
+johnsmith,0
+example_query,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+johnsmith,0
+SELECT email FROM users WHERE id = 10,0
+john.doe92,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+contact@domain.com,0
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM products WHERE price < 100,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' and sleep(5)--,1
+SELECT version();,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+1' or '1'='1' --,1
+'; exec xp_cmdshell('dir')--,1
+'; exec xp_cmdshell('dir')--,1
+1';WAITFOR DELAY '0:0:5'--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+admin' OR 'x'='x'; --,1
+'; exec xp_cmdshell('dir')--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+update users set name='john' where id=1,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' union select 1,2,3,@@version--",1
+1' or '1'='1' --,1
+SELECT version();,0
+'; exec xp_cmdshell('dir')--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT name FROM customers WHERE id = 5,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM table WHERE col = 'value',0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+john.doe92,0
+johnsmith,0
+SELECT * FROM products WHERE price < 100,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+johnsmith,0
+1 and 1=1--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+1' or '1'='1' --,1
+SELECT * FROM accounts WHERE balance > 5000,0
+john.doe92,0
+johnsmith,0
+SELECT name FROM customers WHERE id = 5,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+1' or '1'='1' --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+1' or '1'='1' --,1
+1 and 1=1--,1
+1' or '1'='1' --,1
+1 and 1=1--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT version();,0
+SELECT version();,0
+contact@domain.com,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT name FROM items WHERE quantity < 20,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+john.doe92,0
+1' or '1'='1' --,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+1 and 1=1--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' and sleep(5)--,1
+1';WAITFOR DELAY '0:0:5'--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"SELECT id, email FROM users WHERE status='active'",0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' and sleep(5)--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT email FROM users WHERE id = 10,0
+SELECT version();,0
+admin' OR 'x'='x'; --,1
+"' union select 1,2,3,@@version--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+john.doe92,0
+SELECT name FROM customers WHERE id = 5,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+johnsmith,0
+1 and 1=1--,1
+SELECT name FROM items WHERE quantity < 20,0
+update users set name='john' where id=1,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+update users set name='john' where id=1,0
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT COUNT(*) FROM employees,0
+normalUser,0
+1' or '1'='1' --,1
+admin' OR 'x'='x'; --,1
+johnsmith,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT name FROM customers WHERE id = 5,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM users WHERE email = 'user@example.com',0
+johnsmith,0
+contact@domain.com,0
+SELECT version();,0
+"SELECT id, email FROM users WHERE status='active'",0
+update users set name='john' where id=1,0
+'; exec xp_cmdshell('dir')--,1
+""" or 1=1;--",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"' union select 1,2,3,@@version--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+john.doe92,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+normalUser,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+johnsmith,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT * FROM products WHERE price < 100,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+1 and 1=1--,1
+1 and 1=1--,1
+SELECT * FROM products WHERE price < 100,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT COUNT(*) FROM employees,0
+1 and 1=1--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT email FROM users WHERE id = 10,0
+""" or 1=1;--",1
+john.doe92,0
+update users set name='john' where id=1,0
+admin' and 1=2 union select null--,1
+1 and 1=1--,1
+update users set name='john' where id=1,0
+SELECT * FROM products WHERE price < 100,0
+normalUser,0
+"SELECT id, email FROM users WHERE status='active'",0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM products WHERE price < 100,0
+SELECT name FROM items WHERE quantity < 20,0
+"SELECT id, email FROM users WHERE status='active'",0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT name FROM items WHERE quantity < 20,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT COUNT(*) FROM employees,0
+1' or '1'='1' --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+""" or 1=1;--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT * FROM products WHERE price < 100,0
+SELECT version();,0
+normalUser,0
+'; exec xp_cmdshell('dir')--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT COUNT(*) FROM employees,0
+johnsmith,0
+update users set name='john' where id=1,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+johnsmith,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT name FROM items WHERE quantity < 20,0
+' and sleep(5)--,1
+johnsmith,0
+normalUser,0
+' and sleep(5)--,1
+SELECT * FROM table WHERE col = 'value',0
+""" or 1=1;--",1
+normalUser,0
+johnsmith,0
+""" or 1=1;--",1
+SELECT email FROM users WHERE id = 10,0
+SELECT version();,0
+1';WAITFOR DELAY '0:0:5'--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+1';WAITFOR DELAY '0:0:5'--,1
+admin,0
+johnsmith,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM table WHERE col = 'value',0
+"SELECT id, email FROM users WHERE status='active'",0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT email FROM users WHERE id = 10,0
+1' or '1'='1' --,1
+admin' and 1=2 union select null--,1
+admin' and 1=2 union select null--,1
+admin' and 1=2 union select null--,1
+update users set name='john' where id=1,0
+john.doe92,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+example_query,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+contact@domain.com,0
+update users set name='john' where id=1,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM users WHERE email = 'user@example.com',0
+1';WAITFOR DELAY '0:0:5'--,1
+johnsmith,0
+admin' OR 'x'='x'; --,1
+SELECT name FROM items WHERE quantity < 20,0
+update users set name='john' where id=1,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+contact@domain.com,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT name FROM items WHERE quantity < 20,0
+admin' and 1=2 union select null--,1
+SELECT * FROM products WHERE price < 100,0
+example_query,0
+SELECT name FROM items WHERE quantity < 20,0
+contact@domain.com,0
+"SELECT id, email FROM users WHERE status='active'",0
+' and sleep(5)--,1
+1' or '1'='1' --,1
+john.doe92,0
+normalUser,0
+"' union select 1,2,3,@@version--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+'; exec xp_cmdshell('dir')--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' union select 1,2,3,@@version--",1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+contact@domain.com,0
+SELECT name FROM customers WHERE id = 5,0
+SELECT * FROM products WHERE price < 100,0
+contact@domain.com,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+1';WAITFOR DELAY '0:0:5'--,1
+contact@domain.com,0
+'; exec xp_cmdshell('dir')--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM accounts WHERE balance > 5000,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+1 and 1=1--,1
+SELECT version();,0
+SELECT * FROM products WHERE price < 100,0
+1' or '1'='1' --,1
+admin,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM table WHERE col = 'value',0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+1' or '1'='1' --,1
+normalUser,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT name FROM items WHERE quantity < 20,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+john.doe92,0
+""" or 1=1;--",1
+SELECT COUNT(*) FROM employees,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT COUNT(*) FROM employees,0
+update users set name='john' where id=1,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+admin' and 1=2 union select null--,1
+' and sleep(5)--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+admin' OR 'x'='x'; --,1
+"' union select 1,2,3,@@version--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"' union select 1,2,3,@@version--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+admin' and 1=2 union select null--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT email FROM users WHERE id = 10,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+example_query,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+'; exec xp_cmdshell('dir')--,1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM users WHERE email = 'user@example.com',0
+""" or 1=1;--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT name FROM items WHERE quantity < 20,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM table WHERE col = 'value',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+1' or '1'='1' --,1
+SELECT * FROM accounts WHERE balance > 5000,0
+johnsmith,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT name FROM items WHERE quantity < 20,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT version();,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+1 and 1=1--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+1 and 1=1--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+contact@domain.com,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT version();,0
+"SELECT id, email FROM users WHERE status='active'",0
+1' or '1'='1' --,1
+update users set name='john' where id=1,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+1';WAITFOR DELAY '0:0:5'--,1
+admin,0
+admin' and 1=2 union select null--,1
+update users set name='john' where id=1,0
+admin' OR 'x'='x'; --,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"' union select 1,2,3,@@version--",1
+john.doe92,0
+"' union select 1,2,3,@@version--",1
+SELECT * FROM table WHERE col = 'value',0
+johnsmith,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+example_query,0
+' and sleep(5)--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"' AND MID(VERSION(),1,1) = '5' --",1
+'; exec xp_cmdshell('dir')--,1
+example_query,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+normalUser,0
+1';WAITFOR DELAY '0:0:5'--,1
+update users set name='john' where id=1,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM accounts WHERE balance > 5000,0
+admin' OR 'x'='x'; --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT * FROM table WHERE col = 'value',0
+'; exec xp_cmdshell('dir')--,1
+update users set name='john' where id=1,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+"SELECT id, email FROM users WHERE status='active'",0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+normalUser,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT * FROM accounts WHERE balance > 5000,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+admin' and 1=2 union select null--,1
+""" or 1=1;--",1
+admin' and 1=2 union select null--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"SELECT id, email FROM users WHERE status='active'",0
+1 and 1=1--,1
+1 and 1=1--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT name FROM items WHERE quantity < 20,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+1' or '1'='1' --,1
+john.doe92,0
+SELECT * FROM products WHERE price < 100,0
+"SELECT id, email FROM users WHERE status='active'",0
+'; exec xp_cmdshell('dir')--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+johnsmith,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' union select 1,2,3,@@version--",1
+normalUser,0
+1' or '1'='1' --,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT COUNT(*) FROM employees,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM table WHERE col = 'value',0
+"SELECT id, email FROM users WHERE status='active'",0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+""" or 1=1;--",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+"SELECT id, email FROM users WHERE status='active'",0
+1' or '1'='1' --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+"' union select 1,2,3,@@version--",1
+contact@domain.com,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+1';WAITFOR DELAY '0:0:5'--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' OR 'x'='x'; --,1
+johnsmith,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT email FROM users WHERE id = 10,0
+example_query,0
+admin,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+admin' and 1=2 union select null--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT version();,0
+john.doe92,0
+1 and 1=1--,1
+SELECT COUNT(*) FROM employees,0
+admin' OR 'x'='x'; --,1
+1 and 1=1--,1
+"' union select 1,2,3,@@version--",1
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT COUNT(*) FROM employees,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' and 1=2 union select null--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+'; exec xp_cmdshell('dir')--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT email FROM users WHERE id = 10,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT email FROM users WHERE id = 10,0
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM products WHERE price < 100,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+normalUser,0
+' and sleep(5)--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT version();,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT version();,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM table WHERE col = 'value',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'; exec xp_cmdshell('dir')--,1
+SELECT email FROM users WHERE id = 10,0
+1 and 1=1--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+johnsmith,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+1 and 1=1--,1
+normalUser,0
+SELECT * FROM table WHERE col = 'value',0
+'; exec xp_cmdshell('dir')--,1
+SELECT email FROM users WHERE id = 10,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+normalUser,0
+SELECT COUNT(*) FROM employees,0
+SELECT version();,0
+example_query,0
+SELECT name FROM customers WHERE id = 5,0
+""" or 1=1;--",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+'||(SELECT load_file('/etc/passwd'))||',1
+"SELECT id, email FROM users WHERE status='active'",0
+johnsmith,0
+"' union select 1,2,3,@@version--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+admin' OR 'x'='x'; --,1
+john.doe92,0
+contact@domain.com,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+'; exec xp_cmdshell('dir')--,1
+"SELECT id, email FROM users WHERE status='active'",0
+"' union select 1,2,3,@@version--",1
+' and sleep(5)--,1
+SELECT * FROM table WHERE col = 'value',0
+"SELECT id, email FROM users WHERE status='active'",0
+admin,0
+1 and 1=1--,1
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM table WHERE col = 'value',0
+johnsmith,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT version();,0
+johnsmith,0
+john.doe92,0
+1 and 1=1--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT email FROM users WHERE id = 10,0
+admin' OR 'x'='x'; --,1
+SELECT * FROM products WHERE price < 100,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+john.doe92,0
+contact@domain.com,0
+SELECT * FROM products WHERE price < 100,0
+example_query,0
+SELECT name FROM customers WHERE id = 5,0
+'; exec xp_cmdshell('dir')--,1
+contact@domain.com,0
+contact@domain.com,0
+SELECT * FROM accounts WHERE balance > 5000,0
+"SELECT id, email FROM users WHERE status='active'",0
+""" or 1=1;--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'; exec xp_cmdshell('dir')--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+""" or 1=1;--",1
+SELECT COUNT(*) FROM employees,0
+johnsmith,0
+john.doe92,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+example_query,0
+""" or 1=1;--",1
+SELECT email FROM users WHERE id = 10,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM products WHERE price < 100,0
+""" or 1=1;--",1
+"SELECT id, email FROM users WHERE status='active'",0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT version();,0
+1 and 1=1--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT version();,0
+""" or 1=1;--",1
+admin,0
+admin,0
+1 and 1=1--,1
+johnsmith,0
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT * FROM products WHERE price < 100,0
+1' or '1'='1' --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT name FROM customers WHERE id = 5,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+contact@domain.com,0
+""" or 1=1;--",1
+admin,0
+1' or '1'='1' --,1
+SELECT * FROM table WHERE col = 'value',0
+' and sleep(5)--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT version();,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+normalUser,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+admin,0
+john.doe92,0
+update users set name='john' where id=1,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+john.doe92,0
+SELECT COUNT(*) FROM employees,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT version();,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+'; exec xp_cmdshell('dir')--,1
+example_query,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT email FROM users WHERE id = 10,0
+SELECT name FROM customers WHERE id = 5,0
+john.doe92,0
+"' union select 1,2,3,@@version--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+update users set name='john' where id=1,0
+SELECT version();,0
+"' union select 1,2,3,@@version--",1
+""" or 1=1;--",1
+SELECT email FROM users WHERE id = 10,0
+SELECT name FROM items WHERE quantity < 20,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT * FROM table WHERE col = 'value',0
+"' union select 1,2,3,@@version--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+normalUser,0
+"' union select 1,2,3,@@version--",1
+1 and 1=1--,1
+'; exec xp_cmdshell('dir')--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'; exec xp_cmdshell('dir')--,1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM table WHERE col = 'value',0
+normalUser,0
+normalUser,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+johnsmith,0
+'; exec xp_cmdshell('dir')--,1
+"' union select 1,2,3,@@version--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'; exec xp_cmdshell('dir')--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT name FROM customers WHERE id = 5,0
+"' union select 1,2,3,@@version--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+normalUser,0
+admin' OR 'x'='x'; --,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT name FROM customers WHERE id = 5,0
+example_query,0
+admin,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+admin' OR 'x'='x'; --,1
+admin,0
+SELECT * FROM table WHERE col = 'value',0
+update users set name='john' where id=1,0
+johnsmith,0
+"' union select 1,2,3,@@version--",1
+contact@domain.com,0
+normalUser,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM products WHERE price < 100,0
+1 and 1=1--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM table WHERE col = 'value',0
+update users set name='john' where id=1,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+admin,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+normalUser,0
+normalUser,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+example_query,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+""" or 1=1;--",1
+update users set name='john' where id=1,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+1' or '1'='1' --,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+update users set name='john' where id=1,0
+1 and 1=1--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM accounts WHERE balance > 5000,0
+1' or '1'='1' --,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+1' or '1'='1' --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT email FROM users WHERE id = 10,0
+'||(SELECT load_file('/etc/passwd'))||',1
+1' or '1'='1' --,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' and sleep(5)--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT email FROM users WHERE id = 10,0
+1 and 1=1--,1
+SELECT name FROM customers WHERE id = 5,0
+admin' OR 'x'='x'; --,1
+admin' OR 'x'='x'; --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+""" or 1=1;--",1
+1';WAITFOR DELAY '0:0:5'--,1
+johnsmith,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+update users set name='john' where id=1,0
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+1 and 1=1--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT name FROM items WHERE quantity < 20,0
+'; exec xp_cmdshell('dir')--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"' union select 1,2,3,@@version--",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"' union select 1,2,3,@@version--",1
+""" or 1=1;--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM users WHERE email = 'user@example.com',0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT COUNT(*) FROM employees,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT name FROM items WHERE quantity < 20,0
+""" or 1=1;--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT COUNT(*) FROM employees,0
+1';WAITFOR DELAY '0:0:5'--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT * FROM users WHERE email = 'user@example.com',0
+"' union select 1,2,3,@@version--",1
+normalUser,0
+SELECT * FROM accounts WHERE balance > 5000,0
+johnsmith,0
+"' union select 1,2,3,@@version--",1
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT name FROM items WHERE quantity < 20,0
+"' union select 1,2,3,@@version--",1
+contact@domain.com,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+admin' OR 'x'='x'; --,1
+contact@domain.com,0
+1';WAITFOR DELAY '0:0:5'--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+admin' OR 'x'='x'; --,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT name FROM items WHERE quantity < 20,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT COUNT(*) FROM employees,0
+SELECT name FROM items WHERE quantity < 20,0
+1';WAITFOR DELAY '0:0:5'--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' union select 1,2,3,@@version--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+1 and 1=1--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT name FROM customers WHERE id = 5,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT * FROM table WHERE col = 'value',0
+""" or 1=1;--",1
+' and sleep(5)--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT email FROM users WHERE id = 10,0
+admin' and 1=2 union select null--,1
+SELECT name FROM items WHERE quantity < 20,0
+' and sleep(5)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+admin' and 1=2 union select null--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT version();,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+normalUser,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+admin' and 1=2 union select null--,1
+admin' OR 'x'='x'; --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT email FROM users WHERE id = 10,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+john.doe92,0
+"SELECT id, email FROM users WHERE status='active'",0
+admin' and 1=2 union select null--,1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT * FROM table WHERE col = 'value',0
+'||(SELECT load_file('/etc/passwd'))||',1
+""" or 1=1;--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT name FROM customers WHERE id = 5,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+admin,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin' and 1=2 union select null--,1
+example_query,0
+example_query,0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT COUNT(*) FROM employees,0
+update users set name='john' where id=1,0
+admin' and 1=2 union select null--,1
+SELECT * FROM table WHERE col = 'value',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM products WHERE price < 100,0
+normalUser,0
+admin,0
+admin,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+example_query,0
+contact@domain.com,0
+john.doe92,0
+example_query,0
+contact@domain.com,0
+1' or '1'='1' --,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+normalUser,0
+1';WAITFOR DELAY '0:0:5'--,1
+contact@domain.com,0
+"SELECT id, email FROM users WHERE status='active'",0
+admin' and 1=2 union select null--,1
+contact@domain.com,0
+contact@domain.com,0
+' and sleep(5)--,1
+john.doe92,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT * FROM users WHERE email = 'user@example.com',0
+johnsmith,0
+"' union select 1,2,3,@@version--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+normalUser,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM table WHERE col = 'value',0
+SELECT COUNT(*) FROM employees,0
+SELECT COUNT(*) FROM employees,0
+example_query,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+'||(SELECT load_file('/etc/passwd'))||',1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' union select 1,2,3,@@version--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+admin' and 1=2 union select null--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+normalUser,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM users WHERE email = 'user@example.com',0
+1 and 1=1--,1
+'; exec xp_cmdshell('dir')--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+admin,0
+SELECT name FROM items WHERE quantity < 20,0
+example_query,0
+' and sleep(5)--,1
+'; exec xp_cmdshell('dir')--,1
+admin' and 1=2 union select null--,1
+1' or '1'='1' --,1
+johnsmith,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT email FROM users WHERE id = 10,0
+johnsmith,0
+SELECT * FROM products WHERE price < 100,0
+admin' and 1=2 union select null--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+admin' and 1=2 union select null--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+1';WAITFOR DELAY '0:0:5'--,1
+admin' OR 'x'='x'; --,1
+1' or '1'='1' --,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT email FROM users WHERE id = 10,0
+SELECT COUNT(*) FROM employees,0
+'||(SELECT load_file('/etc/passwd'))||',1
+""" or 1=1;--",1
+'; exec xp_cmdshell('dir')--,1
+contact@domain.com,0
+admin,0
+SELECT * FROM accounts WHERE balance > 5000,0
+1';WAITFOR DELAY '0:0:5'--,1
+example_query,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+normalUser,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+"SELECT id, email FROM users WHERE status='active'",0
+update users set name='john' where id=1,0
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT name FROM items WHERE quantity < 20,0
+"' union select 1,2,3,@@version--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM accounts WHERE balance > 5000,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+admin' and 1=2 union select null--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+john.doe92,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+johnsmith,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+1 and 1=1--,1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT name FROM customers WHERE id = 5,0
+""" or 1=1;--",1
+' and sleep(5)--,1
+1 and 1=1--,1
+admin,0
+admin' and 1=2 union select null--,1
+1';WAITFOR DELAY '0:0:5'--,1
+""" or 1=1;--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+example_query,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"SELECT id, email FROM users WHERE status='active'",0
+'; exec xp_cmdshell('dir')--,1
+'; exec xp_cmdshell('dir')--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT email FROM users WHERE id = 10,0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM products WHERE price < 100,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+'||(SELECT load_file('/etc/passwd'))||',1
+admin' and 1=2 union select null--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM products WHERE price < 100,0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+admin' and 1=2 union select null--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+1' or '1'='1' --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT name FROM items WHERE quantity < 20,0
+admin' and 1=2 union select null--,1
+SELECT name FROM customers WHERE id = 5,0
+normalUser,0
+'; exec xp_cmdshell('dir')--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT name FROM customers WHERE id = 5,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' union select 1,2,3,@@version--",1
+example_query,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT version();,0
+' and sleep(5)--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"SELECT id, email FROM users WHERE status='active'",0
+update users set name='john' where id=1,0
+1 and 1=1--,1
+SELECT version();,0
+SELECT * FROM products WHERE price < 100,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"SELECT id, email FROM users WHERE status='active'",0
+""" or 1=1;--",1
+1';WAITFOR DELAY '0:0:5'--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+admin,0
+admin' and 1=2 union select null--,1
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+'; exec xp_cmdshell('dir')--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+update users set name='john' where id=1,0
+contact@domain.com,0
+admin' and 1=2 union select null--,1
+' and sleep(5)--,1
+SELECT * FROM products WHERE price < 100,0
+normalUser,0
+update users set name='john' where id=1,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+admin,0
+""" or 1=1;--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM products WHERE price < 100,0
+contact@domain.com,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"SELECT id, email FROM users WHERE status='active'",0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM products WHERE price < 100,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT name FROM items WHERE quantity < 20,0
+admin,0
+normalUser,0
+"' union select 1,2,3,@@version--",1
+SELECT version();,0
+SELECT COUNT(*) FROM employees,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+admin' OR 'x'='x'; --,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+normalUser,0
+admin,0
+'||(SELECT load_file('/etc/passwd'))||',1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+example_query,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT * FROM products WHERE price < 100,0
+"' union select 1,2,3,@@version--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT name FROM customers WHERE id = 5,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+'; exec xp_cmdshell('dir')--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+'; exec xp_cmdshell('dir')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+1';WAITFOR DELAY '0:0:5'--,1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT COUNT(*) FROM employees,0
+contact@domain.com,0
+' and sleep(5)--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' union select 1,2,3,@@version--",1
+SELECT COUNT(*) FROM employees,0
+admin,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT email FROM users WHERE id = 10,0
+john.doe92,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+contact@domain.com,0
+admin,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+example_query,0
+SELECT name FROM items WHERE quantity < 20,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+1 and 1=1--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+john.doe92,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+contact@domain.com,0
+1' or '1'='1' --,1
+SELECT name FROM customers WHERE id = 5,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+'||(SELECT load_file('/etc/passwd'))||',1
+normalUser,0
+"' union select 1,2,3,@@version--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+admin' OR 'x'='x'; --,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+john.doe92,0
+contact@domain.com,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT name FROM items WHERE quantity < 20,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+1' or '1'='1' --,1
+johnsmith,0
+SELECT * FROM table WHERE col = 'value',0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' and sleep(5)--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+contact@domain.com,0
+'||(SELECT load_file('/etc/passwd'))||',1
+normalUser,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT name FROM customers WHERE id = 5,0
+' and sleep(5)--,1
+example_query,0
+SELECT COUNT(*) FROM employees,0
+1 and 1=1--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1' or '1'='1' --,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+update users set name='john' where id=1,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT COUNT(*) FROM employees,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+normalUser,0
+SELECT email FROM users WHERE id = 10,0
+admin,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' AND MID(VERSION(),1,1) = '5' --",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM table WHERE col = 'value',0
+normalUser,0
+admin,0
+admin,0
+'||(SELECT load_file('/etc/passwd'))||',1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT email FROM users WHERE id = 10,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+1';WAITFOR DELAY '0:0:5'--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+contact@domain.com,0
+update users set name='john' where id=1,0
+SELECT * FROM accounts WHERE balance > 5000,0
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND MID(VERSION(),1,1) = '5' --",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+normalUser,0
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"' AND MID(VERSION(),1,1) = '5' --",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM accounts WHERE balance > 5000,0
+john.doe92,0
+1';WAITFOR DELAY '0:0:5'--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+""" or 1=1;--",1
+johnsmith,0
+admin,0
+john.doe92,0
+' and sleep(5)--,1
+1' or '1'='1' --,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+normalUser,0
+SELECT version();,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' and sleep(5)--,1
+1' or '1'='1' --,1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT version();,0
+1 and 1=1--,1
+admin' and 1=2 union select null--,1
+SELECT COUNT(*) FROM employees,0
+SELECT COUNT(*) FROM employees,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+johnsmith,0
+SELECT email FROM users WHERE id = 10,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM products WHERE price < 100,0
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+1';WAITFOR DELAY '0:0:5'--,1
+""" or 1=1;--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT COUNT(*) FROM employees,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+contact@domain.com,0
+SELECT version();,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+update users set name='john' where id=1,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT name FROM customers WHERE id = 5,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT name FROM customers WHERE id = 5,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1 and 1=1--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' union select 1,2,3,@@version--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+""" or 1=1;--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+'; exec xp_cmdshell('dir')--,1
+"' union select 1,2,3,@@version--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+""" or 1=1;--",1
+SELECT email FROM users WHERE id = 10,0
+' and sleep(5)--,1
+SELECT * FROM table WHERE col = 'value',0
+1' or '1'='1' --,1
+"SELECT id, email FROM users WHERE status='active'",0
+johnsmith,0
+SELECT version();,0
+contact@domain.com,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' union select 1,2,3,@@version--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+example_query,0
+example_query,0
+1 and 1=1--,1
+"SELECT id, email FROM users WHERE status='active'",0
+update users set name='john' where id=1,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin' and 1=2 union select null--,1
+"' union select 1,2,3,@@version--",1
+SELECT version();,0
+admin' and 1=2 union select null--,1
+update users set name='john' where id=1,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+update users set name='john' where id=1,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+' and sleep(5)--,1
+contact@domain.com,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT name FROM customers WHERE id = 5,0
+1 and 1=1--,1
+johnsmith,0
+'||(SELECT load_file('/etc/passwd'))||',1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+update users set name='john' where id=1,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+admin' OR 'x'='x'; --,1
+SELECT version();,0
+"' union select 1,2,3,@@version--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+admin' OR 'x'='x'; --,1
+example_query,0
+johnsmith,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+1';WAITFOR DELAY '0:0:5'--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT version();,0
+SELECT * FROM products WHERE price < 100,0
+SELECT name FROM items WHERE quantity < 20,0
+johnsmith,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT email FROM users WHERE id = 10,0
+contact@domain.com,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' and sleep(5)--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT COUNT(*) FROM employees,0
+update users set name='john' where id=1,0
+SELECT * FROM accounts WHERE balance > 5000,0
+1';WAITFOR DELAY '0:0:5'--,1
+john.doe92,0
+'; exec xp_cmdshell('dir')--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' union select 1,2,3,@@version--",1
+"' union select 1,2,3,@@version--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' and sleep(5)--,1
+SELECT COUNT(*) FROM employees,0
+"SELECT id, email FROM users WHERE status='active'",0
+admin' OR 'x'='x'; --,1
+contact@domain.com,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+1' or '1'='1' --,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1 and 1=1--,1
+admin' OR 'x'='x'; --,1
+'; exec xp_cmdshell('dir')--,1
+example_query,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+johnsmith,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT COUNT(*) FROM employees,0
+SELECT name FROM customers WHERE id = 5,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT name FROM customers WHERE id = 5,0
+admin,0
+SELECT name FROM customers WHERE id = 5,0
+admin' OR 'x'='x'; --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+admin' and 1=2 union select null--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT email FROM users WHERE id = 10,0
+""" or 1=1;--",1
+normalUser,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+john.doe92,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT name FROM customers WHERE id = 5,0
+SELECT * FROM products WHERE price < 100,0
+""" or 1=1;--",1
+1 and 1=1--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT email FROM users WHERE id = 10,0
+1' or '1'='1' --,1
+example_query,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'; exec xp_cmdshell('dir')--,1
+1' or '1'='1' --,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+john.doe92,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+1' or '1'='1' --,1
+example_query,0
+SELECT * FROM products WHERE price < 100,0
+' and sleep(5)--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+1';WAITFOR DELAY '0:0:5'--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+normalUser,0
+SELECT * FROM accounts WHERE balance > 5000,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM products WHERE price < 100,0
+admin' OR 'x'='x'; --,1
+normalUser,0
+"SELECT id, email FROM users WHERE status='active'",0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+admin' and 1=2 union select null--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT email FROM users WHERE id = 10,0
+"' union select 1,2,3,@@version--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+johnsmith,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+update users set name='john' where id=1,0
+SELECT COUNT(*) FROM employees,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+john.doe92,0
+john.doe92,0
+1 and 1=1--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+john.doe92,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT email FROM users WHERE id = 10,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+update users set name='john' where id=1,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+normalUser,0
+SELECT COUNT(*) FROM employees,0
+SELECT COUNT(*) FROM employees,0
+SELECT name FROM customers WHERE id = 5,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"SELECT id, email FROM users WHERE status='active'",0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' and sleep(5)--,1
+johnsmith,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+john.doe92,0
+1';WAITFOR DELAY '0:0:5'--,1
+'; exec xp_cmdshell('dir')--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+john.doe92,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+1 and 1=1--,1
+SELECT name FROM customers WHERE id = 5,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+update users set name='john' where id=1,0
+SELECT name FROM customers WHERE id = 5,0
+SELECT name FROM customers WHERE id = 5,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+1 and 1=1--,1
+admin' OR 'x'='x'; --,1
+admin,0
+johnsmith,0
+"SELECT id, email FROM users WHERE status='active'",0
+admin' and 1=2 union select null--,1
+SELECT email FROM users WHERE id = 10,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' and sleep(5)--,1
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM table WHERE col = 'value',0
+1' or '1'='1' --,1
+example_query,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+admin,0
+normalUser,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+john.doe92,0
+1';WAITFOR DELAY '0:0:5'--,1
+1';WAITFOR DELAY '0:0:5'--,1
+example_query,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT name FROM items WHERE quantity < 20,0
+1' or '1'='1' --,1
+' and sleep(5)--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+normalUser,0
+update users set name='john' where id=1,0
+' and sleep(5)--,1
+""" or 1=1;--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM table WHERE col = 'value',0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1 and 1=1--,1
+johnsmith,0
+1';WAITFOR DELAY '0:0:5'--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT email FROM users WHERE id = 10,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+1 and 1=1--,1
+admin' and 1=2 union select null--,1
+admin,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+johnsmith,0
+"SELECT id, email FROM users WHERE status='active'",0
+admin,0
+SELECT name FROM customers WHERE id = 5,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT COUNT(*) FROM employees,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+1' or '1'='1' --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT version();,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+john.doe92,0
+SELECT email FROM users WHERE id = 10,0
+contact@domain.com,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"' union select 1,2,3,@@version--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+'; exec xp_cmdshell('dir')--,1
+SELECT version();,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+contact@domain.com,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+example_query,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+admin' OR 'x'='x'; --,1
+SELECT name FROM items WHERE quantity < 20,0
+1 and 1=1--,1
+admin' OR 'x'='x'; --,1
+SELECT name FROM items WHERE quantity < 20,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+example_query,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+'||(SELECT load_file('/etc/passwd'))||',1
+normalUser,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM accounts WHERE balance > 5000,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+'||(SELECT load_file('/etc/passwd'))||',1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+normalUser,0
+SELECT version();,0
+SELECT name FROM items WHERE quantity < 20,0
+john.doe92,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+1' or '1'='1' --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+""" or 1=1;--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM users WHERE email = 'user@example.com',0
+admin' OR 'x'='x'; --,1
+SELECT name FROM items WHERE quantity < 20,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+1';WAITFOR DELAY '0:0:5'--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT version();,0
+contact@domain.com,0
+""" or 1=1;--",1
+update users set name='john' where id=1,0
+john.doe92,0
+SELECT name FROM items WHERE quantity < 20,0
+'||(SELECT load_file('/etc/passwd'))||',1
+'||(SELECT load_file('/etc/passwd'))||',1
+johnsmith,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT name FROM items WHERE quantity < 20,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+"' union select 1,2,3,@@version--",1
+contact@domain.com,0
+SELECT version();,0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT name FROM customers WHERE id = 5,0
+'; exec xp_cmdshell('dir')--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+1';WAITFOR DELAY '0:0:5'--,1
+admin' OR 'x'='x'; --,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+1' or '1'='1' --,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT COUNT(*) FROM employees,0
+admin' OR 'x'='x'; --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT COUNT(*) FROM employees,0
+SELECT name FROM customers WHERE id = 5,0
+admin,0
+1' or '1'='1' --,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT name FROM customers WHERE id = 5,0
+example_query,0
+SELECT * FROM accounts WHERE balance > 5000,0
+admin' OR 'x'='x'; --,1
+johnsmith,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+admin' OR 'x'='x'; --,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' and sleep(5)--,1
+normalUser,0
+SELECT version();,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+john.doe92,0
+normalUser,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+john.doe92,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT COUNT(*) FROM employees,0
+admin' OR 'x'='x'; --,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+john.doe92,0
+update users set name='john' where id=1,0
+1 and 1=1--,1
+"' union select 1,2,3,@@version--",1
+admin,0
+' and sleep(5)--,1
+admin,0
+'; exec xp_cmdshell('dir')--,1
+update users set name='john' where id=1,0
+'||(SELECT load_file('/etc/passwd'))||',1
+example_query,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+admin,0
+normalUser,0
+update users set name='john' where id=1,0
+normalUser,0
+1';WAITFOR DELAY '0:0:5'--,1
+""" or 1=1;--",1
+SELECT name FROM customers WHERE id = 5,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+update users set name='john' where id=1,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM products WHERE price < 100,0
+update users set name='john' where id=1,0
+1';WAITFOR DELAY '0:0:5'--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT name FROM customers WHERE id = 5,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT email FROM users WHERE id = 10,0
+SELECT COUNT(*) FROM employees,0
+admin' OR 'x'='x'; --,1
+"' union select 1,2,3,@@version--",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+""" or 1=1;--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+admin' OR 'x'='x'; --,1
+admin' and 1=2 union select null--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT * FROM products WHERE price < 100,0
+admin,0
+SELECT COUNT(*) FROM employees,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+admin' OR 'x'='x'; --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT email FROM users WHERE id = 10,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+contact@domain.com,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' and sleep(5)--,1
+SELECT COUNT(*) FROM employees,0
+SELECT version();,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM table WHERE col = 'value',0
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"SELECT id, email FROM users WHERE status='active'",0
+"SELECT id, email FROM users WHERE status='active'",0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT COUNT(*) FROM employees,0
+admin' OR 'x'='x'; --,1
+1 and 1=1--,1
+"' union select 1,2,3,@@version--",1
+SELECT * FROM products WHERE price < 100,0
+admin' OR 'x'='x'; --,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' union select 1,2,3,@@version--",1
+johnsmith,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+admin,0
+1 and 1=1--,1
+admin,0
+normalUser,0
+update users set name='john' where id=1,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM table WHERE col = 'value',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM table WHERE col = 'value',0
+1';WAITFOR DELAY '0:0:5'--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+1' or '1'='1' --,1
+SELECT name FROM customers WHERE id = 5,0
+SELECT email FROM users WHERE id = 10,0
+example_query,0
+john.doe92,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT * FROM products WHERE price < 100,0
+johnsmith,0
+contact@domain.com,0
+'; exec xp_cmdshell('dir')--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT * FROM products WHERE price < 100,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin' OR 'x'='x'; --,1
+john.doe92,0
+' and sleep(5)--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT version();,0
+SELECT * FROM products WHERE price < 100,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin,0
+SELECT * FROM table WHERE col = 'value',0
+johnsmith,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT email FROM users WHERE id = 10,0
+contact@domain.com,0
+admin' and 1=2 union select null--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' union select 1,2,3,@@version--",1
+SELECT email FROM users WHERE id = 10,0
+admin' OR 'x'='x'; --,1
+SELECT name FROM customers WHERE id = 5,0
+john.doe92,0
+'||(SELECT load_file('/etc/passwd'))||',1
+"' AND MID(VERSION(),1,1) = '5' --",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT version();,0
+SELECT name FROM customers WHERE id = 5,0
+john.doe92,0
+SELECT version();,0
+'; exec xp_cmdshell('dir')--,1
+SELECT COUNT(*) FROM employees,0
+SELECT version();,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT name FROM customers WHERE id = 5,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+example_query,0
+'||(SELECT load_file('/etc/passwd'))||',1
+johnsmith,0
+admin,0
+SELECT * FROM table WHERE col = 'value',0
+"SELECT id, email FROM users WHERE status='active'",0
+admin' OR 'x'='x'; --,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM products WHERE price < 100,0
+"SELECT id, email FROM users WHERE status='active'",0
+johnsmith,0
+1' or '1'='1' --,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+""" or 1=1;--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+contact@domain.com,0
+admin' OR 'x'='x'; --,1
+"SELECT id, email FROM users WHERE status='active'",0
+'; exec xp_cmdshell('dir')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+admin' and 1=2 union select null--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+'||(SELECT load_file('/etc/passwd'))||',1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+1';WAITFOR DELAY '0:0:5'--,1
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+example_query,0
+SELECT version();,0
+admin' OR 'x'='x'; --,1
+1' or '1'='1' --,1
+admin,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+admin' and 1=2 union select null--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+admin' OR 'x'='x'; --,1
+SELECT name FROM items WHERE quantity < 20,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+john.doe92,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+1 and 1=1--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+contact@domain.com,0
+contact@domain.com,0
+SELECT email FROM users WHERE id = 10,0
+SELECT name FROM items WHERE quantity < 20,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT name FROM customers WHERE id = 5,0
+johnsmith,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+admin' OR 'x'='x'; --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+normalUser,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT email FROM users WHERE id = 10,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+admin' and 1=2 union select null--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM accounts WHERE balance > 5000,0
+johnsmith,0
+SELECT name FROM customers WHERE id = 5,0
+johnsmith,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT name FROM customers WHERE id = 5,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+' and sleep(5)--,1
+SELECT name FROM items WHERE quantity < 20,0
+""" or 1=1;--",1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+john.doe92,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+example_query,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+SELECT name FROM customers WHERE id = 5,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT version();,0
+"SELECT id, email FROM users WHERE status='active'",0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+1';WAITFOR DELAY '0:0:5'--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+1' or '1'='1' --,1
+admin' and 1=2 union select null--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT COUNT(*) FROM employees,0
+"' union select 1,2,3,@@version--",1
+update users set name='john' where id=1,0
+SELECT email FROM users WHERE id = 10,0
+SELECT * FROM products WHERE price < 100,0
+"' union select 1,2,3,@@version--",1
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM users WHERE email = 'user@example.com',0
+1';WAITFOR DELAY '0:0:5'--,1
+1 and 1=1--,1
+johnsmith,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT name FROM customers WHERE id = 5,0
+SELECT version();,0
+"' union select 1,2,3,@@version--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+1 and 1=1--,1
+SELECT COUNT(*) FROM employees,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+admin' OR 'x'='x'; --,1
+john.doe92,0
+'; exec xp_cmdshell('dir')--,1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT * FROM products WHERE price < 100,0
+"SELECT id, email FROM users WHERE status='active'",0
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+1' or '1'='1' --,1
+SELECT * FROM table WHERE col = 'value',0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+1' or '1'='1' --,1
+admin' and 1=2 union select null--,1
+SELECT * FROM table WHERE col = 'value',0
+contact@domain.com,0
+example_query,0
+1' or '1'='1' --,1
+SELECT version();,0
+SELECT name FROM items WHERE quantity < 20,0
+john.doe92,0
+SELECT * FROM table WHERE col = 'value',0
+1 and 1=1--,1
+SELECT * FROM table WHERE col = 'value',0
+john.doe92,0
+""" or 1=1;--",1
+contact@domain.com,0
+admin' OR 'x'='x'; --,1
+normalUser,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+example_query,0
+SELECT * FROM products WHERE price < 100,0
+SELECT name FROM customers WHERE id = 5,0
+1';WAITFOR DELAY '0:0:5'--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT COUNT(*) FROM employees,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"SELECT id, email FROM users WHERE status='active'",0
+"' union select 1,2,3,@@version--",1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT name FROM items WHERE quantity < 20,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+john.doe92,0
+SELECT * FROM products WHERE price < 100,0
+admin,0
+johnsmith,0
+john.doe92,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+johnsmith,0
+"' union select 1,2,3,@@version--",1
+SELECT COUNT(*) FROM employees,0
+1 and 1=1--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT name FROM customers WHERE id = 5,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT name FROM customers WHERE id = 5,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT email FROM users WHERE id = 10,0
+'; exec xp_cmdshell('dir')--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+1' or '1'='1' --,1
+SELECT name FROM customers WHERE id = 5,0
+"SELECT id, email FROM users WHERE status='active'",0
+""" or 1=1;--",1
+1' or '1'='1' --,1
+1';WAITFOR DELAY '0:0:5'--,1
+admin' OR 'x'='x'; --,1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+normalUser,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT name FROM customers WHERE id = 5,0
+1';WAITFOR DELAY '0:0:5'--,1
+normalUser,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+johnsmith,0
+contact@domain.com,0
+example_query,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+""" or 1=1;--",1
+"' union select 1,2,3,@@version--",1
+""" or 1=1;--",1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'; exec xp_cmdshell('dir')--,1
+admin' OR 'x'='x'; --,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT name FROM customers WHERE id = 5,0
+SELECT version();,0
+""" or 1=1;--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+contact@domain.com,0
+' and sleep(5)--,1
+SELECT email FROM users WHERE id = 10,0
+SELECT name FROM customers WHERE id = 5,0
+admin,0
+update users set name='john' where id=1,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+"SELECT id, email FROM users WHERE status='active'",0
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT name FROM customers WHERE id = 5,0
+'; exec xp_cmdshell('dir')--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+1' or '1'='1' --,1
+contact@domain.com,0
+SELECT COUNT(*) FROM employees,0
+""" or 1=1;--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT email FROM users WHERE id = 10,0
+'; exec xp_cmdshell('dir')--,1
+' and sleep(5)--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+example_query,0
+1 and 1=1--,1
+normalUser,0
+' and sleep(5)--,1
+1' or '1'='1' --,1
+update users set name='john' where id=1,0
+john.doe92,0
+example_query,0
+john.doe92,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+admin,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+""" or 1=1;--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT version();,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+1 and 1=1--,1
+SELECT email FROM users WHERE id = 10,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+update users set name='john' where id=1,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+normalUser,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+johnsmith,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'; exec xp_cmdshell('dir')--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT version();,0
+update users set name='john' where id=1,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT name FROM customers WHERE id = 5,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM products WHERE price < 100,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+1' or '1'='1' --,1
+' and sleep(5)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+' and sleep(5)--,1
+SELECT email FROM users WHERE id = 10,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT name FROM items WHERE quantity < 20,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT version();,0
+'; exec xp_cmdshell('dir')--,1
+example_query,0
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+admin' and 1=2 union select null--,1
+SELECT name FROM items WHERE quantity < 20,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT email FROM users WHERE id = 10,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+1 and 1=1--,1
+SELECT * FROM products WHERE price < 100,0
+admin' and 1=2 union select null--,1
+admin' and 1=2 union select null--,1
+normalUser,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT version();,0
+admin,0
+admin' OR 'x'='x'; --,1
+SELECT * FROM table WHERE col = 'value',0
+example_query,0
+johnsmith,0
+SELECT name FROM customers WHERE id = 5,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+john.doe92,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+1' or '1'='1' --,1
+"' OR 1=CONVERT(int, (SELECT @@version))--",1
+admin' OR 'x'='x'; --,1
+SELECT * FROM table WHERE col = 'value',0
+update users set name='john' where id=1,0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+contact@domain.com,0
+john.doe92,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+""" or 1=1;--",1
+""" or 1=1;--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT COUNT(*) FROM employees,0
+"SELECT id, email FROM users WHERE status='active'",0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+1 and 1=1--,1
+SELECT email FROM users WHERE id = 10,0
+' and sleep(5)--,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+'||(SELECT load_file('/etc/passwd'))||',1
+SELECT * FROM users WHERE email = 'user@example.com',0
+normalUser,0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+1' or '1'='1' --,1
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+admin,0
+johnsmith,0
+update users set name='john' where id=1,0
+admin' OR 'x'='x'; --,1
+SELECT version();,0
+example_query,0
+1 and 1=1--,1
+""" or 1=1;--",1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+contact@domain.com,0
+SELECT * FROM products WHERE price < 100,0
+""" or 1=1;--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM accounts WHERE balance > 5000,0
+normalUser,0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT * FROM table WHERE col = 'value',0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+john.doe92,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+johnsmith,0
+SELECT name FROM items WHERE quantity < 20,0
+' and sleep(5)--,1
+""" or 1=1;--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+1' or '1'='1' --,1
+update users set name='john' where id=1,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+admin,0
+SELECT email FROM users WHERE id = 10,0
+example_query,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+""" or 1=1;--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+1' or '1'='1' --,1
+""" or 1=1;--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT email FROM users WHERE id = 10,0
+""" or 1=1;--",1
+SELECT COUNT(*) FROM employees,0
+update users set name='john' where id=1,0
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT version();,0
+john.doe92,0
+admin' and 1=2 union select null--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+'||(SELECT load_file('/etc/passwd'))||',1
+update users set name='john' where id=1,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT name FROM items WHERE quantity < 20,0
+SELECT version();,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT email FROM users WHERE id = 10,0
+"' union select 1,2,3,@@version--",1
+normalUser,0
+SELECT email FROM users WHERE id = 10,0
+1' or '1'='1' --,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT COUNT(*) FROM employees,0
+1';WAITFOR DELAY '0:0:5'--,1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+john.doe92,0
+SELECT name FROM items WHERE quantity < 20,0
+' and sleep(5)--,1
+SELECT version();,0
+SELECT * FROM table WHERE col = 'value',0
+johnsmith,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+""" or 1=1;--",1
+1' or '1'='1' --,1
+update users set name='john' where id=1,0
+SELECT version();,0
+"SELECT id, email FROM users WHERE status='active'",0
+john.doe92,0
+example_query,0
+SELECT name FROM customers WHERE id = 5,0
+admin' OR 'x'='x'; --,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+admin,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+normalUser,0
+' and sleep(5)--,1
+' and sleep(5)--,1
+SELECT name FROM items WHERE quantity < 20,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT * FROM products WHERE price < 100,0
+'||(SELECT load_file('/etc/passwd'))||',1
+'; exec xp_cmdshell('dir')--,1
+"SELECT id, email FROM users WHERE status='active'",0
+1';WAITFOR DELAY '0:0:5'--,1
+update users set name='john' where id=1,0
+1' or '1'='1' --,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+'||(SELECT load_file('/etc/passwd'))||',1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+""" or 1=1;--",1
+SELECT * FROM table WHERE col = 'value',0
+' OR 1=1 LIMIT 1 OFFSET 1--,1
+admin' OR 'x'='x'; --,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+normalUser,0
+SELECT * FROM products WHERE price < 100,0
+admin,0
+contact@domain.com,0
+SELECT * FROM accounts WHERE balance > 5000,0
+admin' OR 'x'='x'; --,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+example_query,0
+SELECT * FROM accounts WHERE balance > 5000,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+update users set name='john' where id=1,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+johnsmith,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin' and 1=2 union select null--,1
+admin' and 1=2 union select null--,1
+admin' and 1=2 union select null--,1
+' OR CAST((SELECT user()) AS INT)=0 --,1
+johnsmith,0
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+' and sleep(5)--,1
+1' or '1'='1' --,1
+SELECT * FROM accounts WHERE balance > 5000,0
+contact@domain.com,0
+1 and 1=1--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT name FROM customers WHERE id = 5,0
+admin' and 1=2 union select null--,1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT version();,0
+"' union select 1,2,3,@@version--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM accounts WHERE balance > 5000,0
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"' AND MID(VERSION(),1,1) = '5' --",1
+admin,0
+SELECT version();,0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+contact@domain.com,0
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT version();,0
+""" or 1=1;--",1
+john.doe92,0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+johnsmith,0
+SELECT * FROM table WHERE col = 'value',0
+SELECT name FROM customers WHERE id = 5,0
+admin' and 1=2 union select null--,1
+SELECT name FROM customers WHERE id = 5,0
+contact@domain.com,0
+1' or '1'='1' --,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+'; IF 1=1 WAITFOR DELAY '00:00:05'--,1
+SELECT name FROM items WHERE quantity < 20,0
+"SELECT id, email FROM users WHERE status='active'",0
+"SELECT id, email FROM users WHERE status='active'",0
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT email FROM users WHERE id = 10,0
+admin,0
+update users set name='john' where id=1,0
+"1 and ascii(substring(@@version,1,1)) > 64 --",1
+SELECT version();,0
+'; exec xp_cmdshell('dir')--,1
+example_query,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+' and sleep(5)--,1
+SELECT email FROM users WHERE id = 10,0
+SELECT name FROM items WHERE quantity < 20,0
+john.doe92,0
+1 and 1=1--,1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM products WHERE price < 100,0
+SELECT * FROM accounts WHERE balance > 5000,0
+example_query,0
+' and sleep(5)--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+SELECT * FROM table WHERE col = 'value',0
+'; exec xp_cmdshell('dir')--,1
+normalUser,0
+admin' and 1=2 union select null--,1
+john.doe92,0
+' OR CAST((SELECT user()) AS INT)=0 --,1
+1';WAITFOR DELAY '0:0:5'--,1
+SELECT * FROM table WHERE col = 'value',0
+"' AND MID(VERSION(),1,1) = '5' --",1
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM accounts WHERE balance > 5000,0
+SELECT * FROM accounts WHERE balance > 5000,0
+john.doe92,0
+"' AND MID(VERSION(),1,1) = '5' --",1
+SELECT * FROM orders WHERE date = '2023-01-01',0
+1 and 1=1--,1
+normalUser,0
+"' union select 1,2,3,@@version--",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+SELECT * FROM users WHERE email = 'user@example.com',0
+SELECT version();,0
+SELECT * FROM orders WHERE date = '2023-01-01',0
+SELECT * FROM table WHERE col = 'value',0
+SELECT * FROM users WHERE email = 'user@example.com',0
+' and sleep(5)--,1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"1 or updatexml(1,concat(0x7e,user()),1)--",1
+SELECT AVG(salary) FROM employees WHERE dept='HR',0
+"' AND JSON_EXTRACT(info, '$.user') = 'admin'--",1
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"INSERT INTO logs (event, time) VALUES ('login', NOW())",0
+"' AND MID(VERSION(),1,1) = '5' --",1
+' OR EXISTS(SELECT * FROM users WHERE name LIKE '%admin%')--,1
+' AND 1=(SELECT COUNT(*) FROM tab)--,1
+1' or '1'='1' --,1
+SELECT * FROM products WHERE price < 100,0
+SELECT name FROM items WHERE quantity < 20,0

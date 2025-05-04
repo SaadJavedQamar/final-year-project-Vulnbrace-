@@ -1,0 +1,125 @@
+2025-05-04 11:43:20 | INFO | 
+################################################################################
+#                            DDoS Detection Result                             #
+################################################################################
+Status                  : DDoS Detected
+################################################################################
+
+2025-05-04 11:43:20 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.214:5000
+2025-05-04 11:43:20 | INFO | [33mPress CTRL+C to quit[0m
+2025-05-04 11:48:25 | INFO | 
+======================================================================
+2025-05-04 11:48:25 | INFO | Request ID      : af41ac8b
+2025-05-04 11:48:25 | INFO | Classification  : SQLI
+2025-05-04 11:48:25 | INFO | Start Time      : 2025-05-04 11:48:25
+2025-05-04 11:48:25 | INFO | Client IP       : 127.0.0.1
+2025-05-04 11:48:25 | INFO | ======================================================================
+2025-05-04 11:48:25 | INFO | 
+################################################################################
+#                            SQLi Detection Results                            #
+################################################################################
+Query                   : SELECT * FROM users WHERE name=''OR 1=1--' AND password=''OR
+                          1=1--'
+Prediction              : Malicious Query
+Confidence Scores       : {"non_malicious": 0.4892, "malicious": 0.5108}
+################################################################################
+
+2025-05-04 11:48:25 | WARNING | [af41ac8b] BLOCKED SQLi PAYLOAD: SELECT * FROM users WHERE name=''OR 1=1--' AND password=''OR 1=1--'
+2025-05-04 11:48:25 | INFO | Processing Time : 0.3033 seconds
+2025-05-04 11:48:25 | INFO | ----------------------------------------------------------------------
+
+2025-05-04 11:48:25 | INFO | 127.0.0.1 - - [04/May/2025 11:48:25] "POST /classify HTTP/1.1" 200 -
+2025-05-04 11:48:58 | INFO | 
+======================================================================
+2025-05-04 11:48:58 | INFO | Request ID      : c8c881a1
+2025-05-04 11:48:58 | INFO | Classification  : XSS
+2025-05-04 11:48:58 | INFO | Start Time      : 2025-05-04 11:48:58
+2025-05-04 11:48:58 | INFO | Client IP       : 127.0.0.1
+2025-05-04 11:48:58 | INFO | ======================================================================
+2025-05-04 11:48:58 | INFO | 
+################################################################################
+#                            XSS Detection Results                             #
+################################################################################
+Input                   : <h1 onbeforecut="alert(1)" contenteditable>test</h1> <h1
+                          onbeforecut="alert(1)" contenteditable>test</h1>
+Prediction              : malicious
+Confidence Scores       : {"safe": 0.3873, "malicious": 0.6127}
+################################################################################
+
+2025-05-04 11:48:58 | WARNING | [c8c881a1] BLOCKED XSS PAYLOAD: <h1 onbeforecut="alert(1)" contenteditable>test</h1> <h1 onbeforecut="alert(1)" contenteditable>test</h1>
+2025-05-04 11:48:58 | INFO | Processing Time : 0.2861 seconds
+2025-05-04 11:48:58 | INFO | ----------------------------------------------------------------------
+
+2025-05-04 11:48:58 | INFO | 127.0.0.1 - - [04/May/2025 11:48:58] "POST /classify HTTP/1.1" 200 -
+2025-05-04 11:49:06 | INFO | 
+======================================================================
+2025-05-04 11:49:06 | INFO | Request ID      : 31519b8f
+2025-05-04 11:49:06 | INFO | Classification  : SQLI
+2025-05-04 11:49:06 | INFO | Start Time      : 2025-05-04 11:49:06
+2025-05-04 11:49:06 | INFO | Client IP       : 127.0.0.1
+2025-05-04 11:49:06 | INFO | ======================================================================
+2025-05-04 11:49:07 | INFO | 
+################################################################################
+#                            SQLi Detection Results                            #
+################################################################################
+Query                   : SELECT * FROM users WHERE name='Faraz Ather' AND
+                          password='Faraz'
+Prediction              : Non-Malicious Query
+Confidence Scores       : {"non_malicious": 0.9979, "malicious": 0.0021}
+################################################################################
+
+2025-05-04 11:49:07 | INFO | Processing Time : 0.1774 seconds
+2025-05-04 11:49:07 | INFO | ----------------------------------------------------------------------
+
+2025-05-04 11:49:07 | INFO | 127.0.0.1 - - [04/May/2025 11:49:07] "POST /classify HTTP/1.1" 200 -
+2025-05-04 11:50:44 | INFO | 
+======================================================================
+2025-05-04 11:50:44 | INFO | Request ID      : 2d86fc81
+2025-05-04 11:50:44 | INFO | Classification  : XSS
+2025-05-04 11:50:44 | INFO | Start Time      : 2025-05-04 11:50:44
+2025-05-04 11:50:44 | INFO | Client IP       : 127.0.0.1
+2025-05-04 11:50:44 | INFO | ======================================================================
+2025-05-04 11:50:44 | INFO | 
+################################################################################
+#                            XSS Detection Results                             #
+################################################################################
+Input                   : <style>@keyframes x{}</style><abbr style="animation-name:x"
+                          onanimationend="alert(1)"></abbr> <style>@keyframes
+                          x{}</style><abbr style="animation-name:x"
+                          onanimationend="alert(1)"></abbr>
+Prediction              : safe
+Confidence Scores       : {"safe": 0.9001, "malicious": 0.0999}
+################################################################################
+
+2025-05-04 11:50:44 | INFO | Processing Time : 0.2800 seconds
+2025-05-04 11:50:44 | INFO | ----------------------------------------------------------------------
+
+2025-05-04 11:50:44 | INFO | 127.0.0.1 - - [04/May/2025 11:50:44] "POST /classify HTTP/1.1" 200 -
+2025-05-04 11:50:44 | INFO | 
+======================================================================
+2025-05-04 11:50:44 | INFO | Request ID      : fe32f117
+2025-05-04 11:50:44 | INFO | Classification  : SQLI
+2025-05-04 11:50:44 | INFO | Start Time      : 2025-05-04 11:50:44
+2025-05-04 11:50:44 | INFO | Client IP       : 127.0.0.1
+2025-05-04 11:50:44 | INFO | ======================================================================
+2025-05-04 11:50:44 | INFO | 
+################################################################################
+#                            SQLi Detection Results                            #
+################################################################################
+Query                   : SELECT * FROM users WHERE name='<style>@keyframes
+                          x{}</style><abbr style="animation-name:x"
+                          onanimationend="alert(1)"></abbr>' AND
+                          password='<style>@keyframes x{}</style><abbr
+                          style="animation-name:x" onanimationend="alert(1)"></abbr>'
+Prediction              : Malicious Query
+Confidence Scores       : {"non_malicious": 0.0, "malicious": 1.0}
+################################################################################
+
+2025-05-04 11:50:44 | WARNING | [fe32f117] BLOCKED SQLi PAYLOAD: SELECT * FROM users WHERE name='<style>@keyframes x{}</style><abbr style="animation-name:x" onanimationend="alert(1)"></abbr>' AND password='<style>@keyframes x{}</style><abbr style="animation-name:x" onanimationend="alert(1)"></abbr>'
+2025-05-04 11:50:44 | INFO | Processing Time : 0.2336 seconds
+2025-05-04 11:50:44 | INFO | ----------------------------------------------------------------------
+
+2025-05-04 11:50:44 | INFO | 127.0.0.1 - - [04/May/2025 11:50:44] "POST /classify HTTP/1.1" 200 -

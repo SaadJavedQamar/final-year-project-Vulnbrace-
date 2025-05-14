@@ -1,9 +1,5 @@
-model_name,task,accuracy,f1_score
-xss_knn,XSS,0.968,0.968
-xss_distilbert,XSS,0.903,0.912
-xss_nb,XSS,0.883,0.895
-xss_qda,XSS,0.747,0.768
-sqli_distilbert,SQLi,0.925,0.930
-sqli_nb,SQLi,0.851,0.870
-sqli_qda,SQLi,0.810,0.837
-sqli_knn,SQLi,0.637,0.733
+model_name,task,accuracy,f1_score,,model_name,task,accuracy,f1_score
+sqli_distilbert,SQLi,0.925,0.930,,xss_knn,XSS,0.968,0.968
+sqli_nb,SQLi,0.851,0.870,,xss_distilbert,XSS,0.903,0.912
+sqli_qda,SQLi,0.810,0.837,,xss_nb,XSS,0.883,0.895
+sqli_knn,SQLi,0.637,0.733,,xss_qda,XSS,0.747,0.768
